@@ -1,0 +1,1358 @@
+pring:
+    profiles: prod
+name: test-YAML
+
+---
+spring:
+    profiles: prod
+name: test-YAML
+DefaultCurrencyCode: 356
+HashingAlgoritham: SHA-256
+FieldSeparator: "~"
+FieldEquator: "="
+IsDebug: 1
+AllowFailedHash: 0
+InternalRequestFields: CUST_NAME,TXNTYPE,AMOUNT,CURRENCY_CODE,HASH,ORDER_ID,PAY_ID,CARD_NUMBER,CARD_EXP_DT,CVV,MOP_TYPE,DESTINATION,CUST_EMAIL,MD,PAREQ,PARES,ORIG_TXN_ID,ACCT_ID,PAYMENT_TYPE,CUST_LAST_NAME,CUST_FIRST_NAME,CUST_STREET_ADDRESS1,CUST_STREET_ADDRESS2,CUST_CITY,CUST_STATE,CUST_COUNTRY,CUST_ZIP,CUST_PHONE,CUST_SHIP_LAST_NAME,CUST_SHIP_FIRST_NAME,CUST_SHIP_NAME,CUST_SHIP_STREET_ADDRESS1,CUST_SHIP_STREET_ADDRESS2,CUST_SHIP_CITY,CUST_SHIP_STATE,CUST_SHIP_COUNTRY,CUST_SHIP_ZIP,CUST_SHIP_PHONE,CUST_ID,NETBANKING_BANK,ORDER_DESCRIPTION,RETURN_URL,PRODUCT_DESC,CARD_MASK,DUPLICATE_YN,ACQ_ID,CANCEL_URL,IS_MERCHANT_HOSTED,SURCHARGE_FLAG,SURCHARGE_AMOUNT,OID,REFUND_FLAG,REFUND_ORDER_ID,TXN_SOURCE,APP_CODE,IPAY_FINAL_ENC_RESPONSE,TXN_KEY,PASSWORD,PG_REF_NUM,TOTAL_AMOUNT,ORIG_TXNTYPE,FEDERAL_CAVV,FEDERAL_XID,FEDERAL_STATUS,FEDERAL_ECI,FEDERAL_MD,FEDERAL_MPI_ID,FEDERAL_MPIERROR_CODE,FEDERAL_RESPONSE_MESSAGE,PAYER_ADDRESS,PAYER_NAME,RESPONSE_CODE,RESPONSE_MESSAGE,STATUS,PG_RESP_CODE,PG_TXN_MESSAGE,PG_TXN_STATUS,RRN,PG_DATE_TIME,AUTH_CODE,UDF1,UDF2,UDF3,UDF4,UDF5,UDF6,ACQUIRER_TYPE,BOB_RESPONSE_FIELD,ATL_RESPONSE_FIELD,PAYMENT_ID,AVR,KOTAK_RESPONSE_FIELD,PAYMENTS_REGION,CARD_HOLDER_TYPE,IDBI_RESPONSE_FIELD,PAYER_PHONE,MATCH_MOVE_RESPONSE_FIELD,TOKEN_ID,ACS_RETURN_URL,AUTHPARAM,ACS_REQ_MAP,DIRECPAY_RESPONSE_FIELD,ISGPAY_RESPONSE_FIELD,FSS_RESPONSE_FIELD,PG_TDR_SC,ACQUIRER_TDR_SC,PG_GST,ACQUIRER_GST,INTERNAL_CARD_ISSUER_BANK,AXISBANK_NB_RESPONSE_FIELD,ATOM_RESPONSE_FIELD,AXISBANK_UPI_RESPONSE_FIELD,RESP_TXN_KEY,CARD_HOLDER_NAME,APBL_REQUEST_FIELD,APBL_RESPONSE_FIELD,MOBIKWIK_REQUEST_FIELD,MOBIKWIK_RESPONSE_FIELD,INVOICE_ID,INGENICO_RESPONSE_FIELD,PAYTM_RESPONSE_FIELD,PHONEPE_RESPONSE_FIELD,ADF1,INVOICE_NO,INTERNAL_USE_WHITE_LABEL_URL,PAYU_RESPONSE_FIELD,RESELLER_ID,BILLDESK_RESPONSE_FIELD,MERCHANT_ID,RESELLER_CHARGES,RESELLER_GST,CASHFREE_RESPONSE_FIELD,ASIANCHECKOUT_RESPONSE_FIELD,LYRA_RESPONSE_FIELD,SBI_RESPONSE_FIELD,FREECHARGE_RESPONSE_FIELD,ICICI_NB_RESPONSE_FIELD,ROUTER_CONFIGURATION_ID,AGREEPAY_RESPONSE_FIELD,EASEBUZZ_RESPONSE_FIELD,FEDERALBANK_NB_RESPONSE_FIELD,YESBANKNB_RESPONSE_FIELD
+
+InternalResponseFields: CUST_NAME,TXNTYPE,AMOUNT,CURRENCY_CODE,ORDER_ID,PAY_ID,MOP_TYPE,TXN_ID,DUPLICATE_YN,RESPONSE_CODE,RESPONSE_MESSAGE,HASH,ACS_URL,PAREQ,ECI,AUTH_CODE,RRN,AVR,ACQ_ID,PAYMENT_ID,STATUS,ORIG_TXN_ID,CUST_ID,PAYMENT_TYPE,NETBANKING_BANK,CUST_EMAIL,RETURN_URL,RESPONSE_DATE,RESPONSE_TIME,CARD_MASK,PRODUCT_DESC,RESPONSE_DATE_TIME,CUST_PHONE,PG_TXN_MESSAGE,MD,ACQUIRER_TYPE,SURCHARGE_FLAG,SURCHARGE_AMOUNT,REFUND_FLAG,REFUND_ORDER_ID,IPAY_FINAL_REQUEST,TXN_KEY,PASSWORD,PG_REF_NUM,,CC_SURCHARGE_RATE_AMOUNT,DC_SURCHARGE_RATE_AMOUNT,NB_SURCHARGE_RATE_AMOUNT,CC_SURCHARGE_RATE_PERCENTAGE,DC_SURCHARGE_RATE_PERCENTAGE,NB_SURCHARGE_RATE_PERCENTAGE,SERVICE_TAX,TOTAL_AMOUNT,ORIG_TXNTYPE,FEDERAL_ENROLL_FINAL_REQUEST,MIGS_FINAL_REQUEST,BOB_FINAL_REQUEST,KOTAK_FINAL_REQUEST,IDBI_FINAL_REQUEST,MERCHANT_ID,ATL_FINAL_REQUEST,MATCH_MOVE_FINAL_REQUEST,IS_STATUS_FINAL, ACS_REQ_MAP, TOKEN_ID, ACS_RETURN_URL,DIRECPAY_FINAL_REQUEST,ISGPAY_FINAL_REQUEST,TERMINAL_ID,BANK_ID,FSS_FINAL_REQUEST,PG_TDR_SC,ACQUIRER_TDR_SC,PG_GST,ACQUIRER_GST,INTERNAL_CARD_ISSUER_BANK,AXISBANK_NB_FINAL_REQUEST,ADF11,ADF8,ADF4,ADF3,ADF7,ADF5,ADF6,ADF9,ADF10,ATOM_FINAL_REQUEST,RESP_TXN_KEY,CARD_HOLDER_NAME,IS_MERCHANT_HOSTED,APBL_FINAL_REQUEST,MOBIKWIK_FINAL_REQUEST,INVOICE_ID,INGENICO_FINAL_REQUEST,PAYTM_FINAL_REQUEST,PHONEPE_FINAL_REQUEST,ADF1,INVOICE_NO,INTERNAL_USE_WHITE_LABEL_URL,PAYU_FINAL_REQUEST,RESELLER_ID,BILLDESK_FINAL_REQUEST,RESELLER_CHARGES,RESELLER_GST,CASHFREE_FINAL_REQUEST,ASIANCHECKOUT_FINAL_REQUEST,LYRA_FINAL_REQUEST,SBI_FINAL_REQUEST,FREECHARGE_FINAL_REQUEST,ICICI_NB_FINAL_REQUEST,ROUTER_CONFIGURATION_ID,AGREEPAY_FINAL_REQUEST,EASEBUZZ_FINAL_REQUEST,FEDERALBANK_NB_REQUEST,YESBANKNB_FINAL_REQUEST
+
+RequestFields: CUST_NAME,TXNTYPE,AMOUNT,CURRENCY_CODE,HASH,ORDER_ID,PAY_ID,CUST_EMAIL,CUST_LAST_NAME,CUST_FIRST_NAME,CUST_STREET_ADDRESS1,CUST_STREET_ADDRESS2,CUST_CITY,CUST_STATE,CUST_COUNTRY,CUST_ZIP,CUST_PHONE,CUST_SHIP_LAST_NAME,CUST_SHIP_FIRST_NAME,CUST_SHIP_NAME,CUST_SHIP_STREET_ADDRESS1,CUST_SHIP_STREET_ADDRESS2,CUST_SHIP_CITY,CUST_SHIP_STATE,CUST_SHIP_COUNTRY,CUST_SHIP_ZIP,CUST_SHIP_PHONE,CUST_ID,ORDER_DESCRIPTION,RETURN_URL,PRODUCT_DESC,CANCEL_URL,REFUND_FLAG,REFUND_ORDER_ID,PG_REF_NUM,MERCHANT_PAYMENT_TYPE,REQUEST_DATE,INVOICE_ID,INVOICE_NO
+ResponseFields: CUST_NAME,TXNTYPE,AMOUNT,CURRENCY_CODE,ORDER_ID,PAY_ID,MOP_TYPE,TXN_ID,RESPONSE_CODE,RESPONSE_MESSAGE,HASH,ECI,AUTH_CODE,RRN,AVR,ACQ_ID,STATUS,ORIG_TXN_ID,CUST_ID,PAYMENT_TYPE,CUST_EMAIL,RETURN_URL,RESPONSE_DATE,RESPONSE_TIME,CARD_MASK,PRODUCT_DESC,RESPONSE_DATE_TIME,CUST_PHONE,PG_TXN_MESSAGE,SURCHARGE_FLAG,SURCHARGE_AMOUNT,REFUND_FLAG,REFUND_ORDER_ID,PG_REF_NUM,SERVICE_TAX,CARD_ISSUER_BANK,CARD_ISSUER_COUNTRY,TOTAL_AMOUNT,IS_STATUS_FINAL,IS_MERCHANT_HOSTED,INVOICE_ID,INVOICE_NO,CARD_HOLDER_NAME
+NodalDBFields: _id,TXN_ID,TXNTYPE,AMOUNT,ORDER_ID,PAY_ID,CURRENCY_CODE,STATUS,RESPONSE_CODE,RESPONSE_MESSAGE,CUST_EMAIL,ORIG_TXN_ID,PAYMENT_TYPE,ACQUIRER_TYPE,PRODUCT_DESC,PG_DATE_TIME,PG_RESP_CODE,PG_TXN_MESSAGE,INTERNAL_CUST_IP,OID,INTERNAL_CUST_COUNTRY_NAME,RRN,INTERNAL_REQUEST_FIELDS,PG_REF_NUM,SURCHARGE_FLAG,CREATE_DATE,UPDATE_DATE,ACQ_ID,TOTAL_AMOUNT,INSERTION_DATE,PAYMENTS_REGION,REQUEST_DATE,SRC_ACCOUNT_NO,BENE_ACCOUNT_NO,BENE_NAME,BENEFICIARY_CD,DATE_INDEX,PG_TDR_SC,ACQUIRER_TDR_SC,PG_GST,ACQUIRER_GST,CUST_PHONE,CUST_ID,RESELLER_ID,TENANT_ID,REMI_ACCOUNT_NO,REMI_ACCOUNT_IFSC,REMI_ACCOUNT_TYPE,REMI_NAME,BENE_IFSC,MERCHANT_PROVIDED_ID,MERCHANT_PROVIDED_NAME,MERCHANT_BUSINESS_NAME,IFSC_CODE,BENEFICIARY_ACCOUNT_TYPE,TOTAL_TDR_SC,REQUESTED_BY,REMI_USER_TYPE,BENE_USER_TYPE,TRANSFER_TYPE,ACCOUNT_ENTRY_TYPE,INTERNAL_RESPONSE_FIELDS,BENE_ACCOUNT_TYPE,PROCESSED_BY,REQUEST_CHANNEL,SETTLEMENT_BATCH_ID,BENE_CUST_NAME
+
+
+VirtualAccountTxnFields: _id,TXN_ID,PAY_ID,VIRTUAL_ACCOUNT_NO,VIRTUAL_ACCOUNT_IFSC,REMI_ADDRESS,REMI_ACCOUNT_TYPE,REMI_NAME,REMI_ACCOUNT_IFSC,REMI_ACCOUNT_NO,REMI_COMMENTS,BENE_NAME,BENE_IFSC,BENE_ACCOUNT_NO,BENE_ACCOUNT_TYPE,BENEFICIARY_CD,MERCHANT_PROVIDED_ID,MERCHANT_PROVIDED_NAME,RRN,ACQ_ID,NODAL_ACCOUNT_NO,TRANSFER_TYPE,YBN_AMOUNT,BALANCE,CUSTOMER_CODE,YBN_STATUS,ATTEMPT_NO,PG_DATE_TIME,RETURNED_AT,CURRENCY_CODE,TXNTYPE,ORDER_ID,ORIG_TXN_ID,RESELLER_ID,TENANT_ID,REQUESTED_BY,REMI_USER_TYPE,BENE_USER_TYPE,ENTRY_TYPE,PAYMENT_TYPE,ACQUIRER_TYPE,BANK_NAME,MERCHANT_BUSINESS_NAME,BENE_CUST_NAME,SETTLEMENT_BATCH_ID
+
+PaymentPageMandatoryFields: ORDER_ID,PAY_ID,AMOUNT,HASH,RETURN_URL,CURRENCY_CODE
+SecureRequestFields: HASH
+DefaultReturnUrl: "https://secure.pay10.com/pgui/jsp/response.jsp"
+
+################################# Database connection properties - PG ########################
+DOMAIN_NAME: "secure.pay10.com"
+
+DBFields: _id,CARD_MASK,TXN_ID,TXNTYPE,CUST_NAME,AMOUNT,ORDER_ID,PAY_ID,MOP_TYPE,CURRENCY_CODE,STATUS,RESPONSE_CODE,RESPONSE_MESSAGE,ACCT_ID,CUST_EMAIL,ORIG_TXN_ID,PAYMENT_TYPE,ACQUIRER_TYPE,PRODUCT_DESC,AUTH_CODE,PG_DATE_TIME,PG_RESP_CODE,PG_TXN_MESSAGE,INTERNAL_CUST_IP,INTERNAL_CARD_ISSUER_BANK,INTERNAL_CARD_ISSUER_COUNTRY,INTERNAL_USER_EMAIL,OID,INTERNAL_CUST_COUNTRY_NAME,RRN,INTERNAL_REQUEST_FIELDS,PG_REF_NUM,SURCHARGE_FLAG,CREATE_DATE,UPDATE_DATE,SURCHARGE_AMOUNT,ACQ_ID,REFUND_FLAG,REFUND_ORDER_ID,UDF1,UDF2,UDF3,UDF4,UDF5,UDF6,TOTAL_AMOUNT,INSERTION_DATE,PAYMENTS_REGION,CARD_HOLDER_TYPE,REQUEST_DATE,SRC_ACCOUNT_NO,BENE_ACCOUNT_NO,BENE_NAME,BENEFICIARY_CD,ORIG_TXNTYPE,DATE_INDEX,PG_TDR_SC,ACQUIRER_TDR_SC,PG_GST,ACQUIRER_GST,CUST_ID,CARD_HOLDER_NAME,INVOICE_ID,RESELLER_ID,RESELLER_CHARGES,RESELLER_GST,CUST_PHONE,ROUTER_CONFIGURATION_ID
+CustomerInfoFields: TXN_ID,CUST_ID,CUST_NAME,CUST_PHONE,CUST_EMAIL,CUST_STREET_ADDRESS1,CUST_STREET_ADDRESS2,CUST_CITY,CUST_STATE,CUST_COUNTRY,CUST_ZIP,CUST_FIRST_NAME,CUST_LAST_NAME,CUST_SHIP_NAME,CUST_SHIP_PHONE,CUST_SHIP_EMAIL,CUST_SHIP_STREET_ADDRESS1,CUST_SHIP_STREET_ADDRESS2,CUST_SHIP_CITY,CUST_SHIP_STATE,CUST_SHIP_COUNTRY,CUST_SHIP_ZIP,CUST_SHIP_FIRST_NAME,CUST_SHIP_LAST_NAME,ORDER_ID,
+#DBAllRequestStringFields are used when fetching from original transaction
+DBAllRequestStringFields: TXNTYPE,CUST_NAME,AMOUNT,ORDER_ID,PAY_ID,MOP_TYPE,CURRENCY_CODE,STATUS,RESPONSE_CODE,RESPONSE_MESSAGE,ACQ_ID,AUTH_CODE,RRN,PG_REF_NUM,ACQUIRER_TYPE,OID,PAYMENT_TYPE,CARD_MASK,ORIG_TXN_ID
+DBDriver: com.mysql.jdbc.Driver
+DBURL: "jdbc:mysql://asiancheckoutdb.cpcifove17mk.ap-south-1.rds.amazonaws.com:3306/pay10?autoReconnect=true&amp;useSSL=false"
+DBUser: acoadmin
+DBPassword: zZPfDJGxsZxDaio2IakF
+################################# Database connection properties - PG ########################
+
+################################# Start HDFC UAT Configurations ##############################
+FSSMandatoryFieldsEnroll: CARD_NUMBER,CARD_EXP_DT,CVV,MOP_TYPE,AMOUNT,CURRENCY_CODE,CARD_HOLDER_NAME
+
+#FSSEnrollmentUrl: "http://127.0.0.1:9090/simulator/fss/enroll"
+#FSSAuthorizationUrl: "http://127.0.0.1:9090/simulator/fss/capture"
+#FSSParesAuthorizationUrl: "http://127.0.0.1:9090/simulator/fss/capture"
+FssSupportTransactionUrl: "https://securepgtest.fssnet.co.in/ipayb/servlet/TranPortalXMLServlet"
+################################# End FSS UAT Configurations ################################
+
+################################# Start FSS Prod Configurations ##############################
+
+FSSEnrollmentUrl: "https://securepgtest.fssnet.co.in/ipayb/servlet/MPIVerifyEnrollmentXMLServlet"
+FSSParesAuthorizationUrl: "https://securepgtest.fssnet.co.in/ipayb/servlet/MPIPayerAuthenticationXMLServlet"
+FSSAuthorizationUrl: "https://securepgtest.fssnet.co.in/ipayb/servlet/TranPortalXMLServlet"
+
+################################# End FSS Prod Configurations ###############################
+
+#################################  Gateway Request URL #################################
+RequestURL: "https://secure.pay10.com/pgui/jsp/paymentrequest"
+#Request3DSURL: "http://192.168.100.3:8080/crm/jsp/payment3ds"
+Request3DSURL: "https://secure.pay10.com/pgui/jsp/payment3ds"
+#################################  Gateway Request URL #################################
+
+################# Start CYBERSOURCE Configurations ##############################
+CyberSource3DSUrl: "https://secure.pay10.com/pgui/jsp/cyberSource3ds"
+CyberSourceRequestUrl: "https://ics2wstesta.ic3.com/commerce/1.x/transactionProcessor"
+################# End CYBERSOURCE Configurations ##############################
+
+################# Start KOTAK BANK Configurations ##############################
+#KotakSaleUrl: "https://genius-epay.in/Test/Test.action"
+KotakSaleUrl: "https://allpaypg.kotak.com/Genius/Kotak/request.action"
+#KotakSaleUrl: "https://netbank.uat.kotak.com"
+KOTAKReturnUrl: "https://secure.pay10.com/pgui/jsp/kotakResponse"
+#KotakRefundUrl: "https://allpaypg.kotak.com/Genius/RAC"
+Kotakrefundurl: "https://apigw.kotak.com:8444/KBSecPG"
+KotakStatusEnqUrl: "https://allpaypg.kotak.com/Genius/Status"
+KotakNBSaleUrl: "https://netbank.uat.kotak.com/pgx/ksecLogin.jsp"
+
+KotakAccessToken: "https://apigw.kotak.com:8444/k2/auth/oauth/v2/token"
+
+################# End KOTAK BANK Configurations ##############################
+
+################# Start BILLDESK BANK Configurations ##############################
+BilldeskSaleUrl: "https://pgi.billdesk.com/pgidsk/PGIMerchantRequestHandler?hidRequestId=PGIME1000&hidOperation=ME100"
+BilldeskReturnUrl: "https://secure.pay10.com/pgui/jsp/billdeskResponse"
+BilldeskRefundUrl: "https://www.billdesk.com/pgidsk/PGIRefundController"
+BilldeskStatusEnqUrl: "https://www.billdesk.com/pgidsk/PGIQueryController"
+BilldeskRefundStatusEnqUrl: "https://www.billdesk.com/pgidsk/PGIRefundQueryController"
+BilldeskMandatoryFieldsEnroll: CARD_NUMBER,CARD_EXP_DT,CVV,MOP_TYPE,CUST_NAME,AMOUNT,CURRENCY_CODE,CARD_HOLDER_NAME
+BilldeskUPISaleUrl: "https://www.billdesk.com/pgidsk/PGIDirectRequest?reqid=BDRDF007"
+################# End BILLDESK BANK Configurations ##############################
+
+
+
+
+################# Start IDBI BANK Configurations ##############################
+
+IdbiSaleUrl: "https://cgt.in.worldline.com/ipg/doMEPayRequestCard"
+IdbiRRefundUrl: "https://cgt.in.worldline.com/ipg/doRefundRequest"
+IdbiReturnUrl: "https://secure.pay10.com/pgui/jsp/idbiResponse"
+IdbiStatusEnqUrl: "https://cgt.in.worldline.com/ipg/getTransactionStatus"
+
+IDBIAuthentication_URL: "https://cgt.in.worldline.com/ipg/api/v1/initiate"
+IDBIAuthorization_URL: "https://cgt.in.worldline.com/ipg/api/v1/authorize"
+
+################# End IDBI BANK Configurations ##############################
+
+
+
+
+################# Start Direcpay Configurations ##############################
+
+DirecpaySaleUrl: "https://test.direcpay.com/direcpay/secure/PaymentTxnServlet"
+DirecpayRefundUrl: "http://test.direcpay.com:80/direcpay/secure/InvokePMTBitMapWebService"
+DirecpayReturnUrl: "https://secure.pay10.com/pgui/jsp/direcpayResponse"
+DirecpayStatusEnqUrl: "http://test.direcpay.com:80/direcpay/secure/InvokePMTBitMapWebService"
+DirecpayServerURI: "http://uilogic.dp.toml.com/"
+
+DirecpayMandatoryFieldsEnroll: CARD_NUMBER,CARD_EXP_DT,CVV,MOP_TYPE,CUST_NAME,AMOUNT,CURRENCY_CODE,CARD_HOLDER_NAME
+
+DirecpayTransactionDataBlock : 1
+DirecpayBillingDataBlock : 1
+DirecpayShippingDataBlock : 1
+DirecpayPaymentDataBlock : 1
+DirecpayMerchantDataBlock : 0
+DirecpayOtherDetailsDataBlock : 0
+DirecpayDCCDataBlock : 0
+
+DirecpayFEITransactionData : "11111111"
+DirecpayFEIBillingData : "1111111111111"
+DirecpayFEIShippingData : "111111111111"
+DirecpayFEIPaymentDataCCDC : "111111000000"
+DirecpayFEIPaymentDataUPI : "000000000101"
+DirecpayFEIPaymentDataNB : "000000000100"
+DirecpayFEIPaymentDataWL : "000000000100"
+
+################# End Direcpay Configurations ##############################
+
+
+################# Start ATOM Configurations ##############################
+#ATOMSaleUrl: "https://paynetzuat.atomtech.in/paynetz/epi/fts?"
+#ATOMRefundUrl: "https://paynetzuat.atomtech.in/paynetz/rfts"
+#ATOMReturnUrl: "https://secure.pay10.com/pgui/jsp/atomResponse"
+#ATOMStatusEnqUrl: "https://paynetzuat.atomtech.in/paynetz/vfts"
+#ATOMRefundStatusEnqURL: "https://paynetz.atomtech.in/refundstatus/rsfts?"
+#AtomMandatoryFieldsEnroll: CARD_NUMBER,CARD_EXP_DT,CVV,MOP_TYPE,CUST_NAME,AMOUNT,CURRENCY_CODE
+
+#ATOMSaleUrl: "https://payment.atomtech.in/paynetz/epi/fts?"
+#ATOMRefundUrl: "https://payment.atomtech.in/paynetz/rfts?"
+#ATOMReturnUrl: "https://www.cashlesso.com/wepay/jsp/atomResponse"
+#ATOMStatusEnqUrl: "https://payment.atomtech.in/paynetz/vfts"
+#ATOMRefundStatusEnqURL: "https://payment.atomtech.in/refundstatus/rsfts?"
+#AtomMandatoryFieldsEnroll: CARD_NUMBER,CARD_EXP_DT,CVV,MOP_TYPE,CARD_HOLDER_NAME,AMOUNT,CURRENCY_CODE
+
+ATOMSaleUrl: "https://payment.atomtech.in/paynetz/epi/fts?"
+ATOMRefundUrl: "https://payment.atomtech.in/paynetz/rfts?"
+ATOMReturnUrl: "https://secure.pay10.com/pgui/jsp/atomResponse"
+ATOMStatusEnqUrl: "https://payment.atomtech.in/paynetz/vfts"
+ATOMRefundStatusEnqURL: "https://payment.atomtech.in/refundstatus/rsfts?"
+AtomMandatoryFieldsEnroll: CARD_NUMBER,CARD_EXP_DT,CVV,MOP_TYPE,CARD_HOLDER_NAME,AMOUNT,CURRENCY_CODE
+
+################# Start APBL Configurations ##############################
+
+APBLSaleUrl: "https://apptest.airtelbank.com/ecom/v2/initiatePayment?"
+APBLRefundUrl: "https://apptest.airtelbank.com/ecom/v2/reversal"
+APBLReturnUrl: "http://127.0.0.1:8080/pgui/jsp/apblResponse"
+APBLStatusEnqUrl: "https://apptest.airtelbank.com/ecom/v2/inquiry"
+APBLRefundStatusEnqURL: "https://apptest.airtelbank.com/ecom/v2/inquiry"
+ApblMandatoryFieldsEnroll: CARD_NUMBER,CARD_EXP_DT,CVV,MOP_TYPE,CUST_NAME,AMOUNT,CURRENCY_CODE
+
+################# End APBL Configurations ##############################
+
+
+################# Start Mobikwik Configurations ##############################
+
+#MobikwikSaleUrl: "https://zaakstaging.zaakpay.com/api/paymentTransact/V8"
+#MobikwikRefundUrl: "https://zaakstaging.zaakpay.com/api/paymentTransact/V8"
+#MobikwikReturnUrl: "http://127.0.0.1:8080/pgui/jsp/mobikwikResponse"
+#MobikwikStatusEnqUrl: "https://zaakstaging.zaakpay.com/api/paymentTransact/V8"
+#MobikwikMandatoryFieldsEnroll: CARD_NUMBER,CARD_EXP_DT,CVV,MOP_TYPE,CUST_NAME,AMOUNT,CURRENCY_CODE
+#MobikwikEmail: "shaiwal@cashlesso.com"
+#MobikwikMode: "0"
+#MobikwikTxnType: "13"
+#MobikwikPayOpt: "0"
+################# End Mobikwik Configurations ##############################
+
+
+
+################# Start Mobikwik Configurations ##############################
+
+MobikwikSaleUrl: "https://walletapi.mobikwik.com/wallet?"
+MobikwikRefundUrl: "https://walletapi.mobikwik.com/walletrefund?"
+MobikwikReturnUrl: "https://secure.pay10.com/pgui/jsp/mobikwikResponse"
+MobikwikStatusEnqUrl: "https://walletapi.mobikwik.com/checkstatus?"
+MobikwikMandatoryFieldsEnroll: CARD_NUMBER,CARD_EXP_DT,CVV,MOP_TYPE,CUST_NAME,AMOUNT,CURRENCY_CODE
+MobikwikEmail: "test@pay10.com"
+MobikwikMode: "0"
+MobikwikTxnType: "13"
+MobikwikPayOpt: "0"
+
+################# End Mobikwik Configurations ##############################
+
+
+
+################# Start ISGPAY Configurations ##############################
+
+ISGPAYReturnUrl: "https://secure.pay10.com/pgui/jsp/isgPayResponse?pgRefNo="
+ISGPAYSaleUrl: "https://isgpay.com/ISGPay/request.action"
+ISGPAYRefundUrl: "https://isgpay.com/ISGPay/RCV"
+ISGPAYStatusEnqUrl: "https://isgpay.com/ISGPay/Status"
+
+################# End ISGPAY Configurations ##############################
+
+################# Start CASHFREE Configurations ##############################
+
+#CASHFREESaleUrl: "https://www.cashfree.com/checkout/post/submit"
+#CASHFREEReturnUrl: "http://127.0.0.1:8080/pgui/jsp/cashfreeResponse"
+#CASHFREERefundUrl: "https://api.cashfree.com/api/v1/order/refund"
+#CASHFREEStatusEnqUrl: "https://api.cashfree.com/api/v1/order/info/status"
+
+#CASHFREESaleUrl: "https://www.cashfree.com/billpay/checkout/post/submit"
+#CASHFREEReturnUrl: "https://secure.pay10.com/pgui/jsp/cashfreeResponse"
+#CASHFREERefundUrl: "https://www.cashfree.com/api/v1/order/refund"
+CASHFREEStatusEnqUrl: "https://api.cashfree.com/api/v1/order/info/status"
+CASHFREERefundUrl: "https://api.cashfree.com/api/v1/order/refund"
+
+######### New Flow URL ########################
+CASHFREEOrderUrl: "https://api.cashfree.com/pg/orders"
+CASHFREESaleUrl: "https://api.cashfree.com/pg/orders/pay"
+CASHFREEReturnUrl: "https://secure.pay10.com/pgui/jsp/cashfreeResponse?order_id={order_id}&order_token={order_token}"
+CASHFREENotifyUrl: "https://secure.pay10.com/pgui/jsp/cashfreeWebhookResponse"
+CashfreeThreadSleepTime: 5000
+CashfreeDBLoopCnt: 5
+
+
+
+################# End CASHFREE Configurations ##############################
+
+
+
+################# Start AXISBANK UPI Configurations ##############################
+
+#AxisBankUpiSaleUrl: "https://upiuat.axisbank.co.in/WebPaymentS2S/Merchant/requestCollect/"
+#AxisBankUpiTokenUrl: "https://upiuat.axisbank.co.in/WebPaymentS2S/Merchant/MerchantToken"
+AXISBANKReturnUrl: ""
+AxisBankUpiRefundUrl: "https://upiuat.axisbank.co.in/WebPaymentS2S/Merchant/refund"
+AxisBankUpiStatusEnqUrl: "https://upiuat.axisbank.co.in/WebPaymentS2S/Merchant/checkstatusV3"
+#AxisBankUpiVpaValidationUrl: "https://upiuat.axisbank.co.in/VpaValidation/VPA/ValidateVPA2"
+AxisBankAllowVpaValidation: Y
+AxisAllowCollectOnVPAFailure: Y
+AxisBankUpiExpiryTime: 15
+#AxisBankUpiDecKey: "SgddBzG1kdjLIclb"
+
+
+AxisBankUpiSaleUrl: "https://pingupi.axisbank.co.in/WebPaymentS2S/Merchant/requestCollect/"
+AxisBankUpiTokenUrl: "https://pingupi.axisbank.co.in/WebPaymentS2S/Merchant/MerchantToken"
+#AxisBankUpiRefundUrl: "https://pingupi.axisbank.co.in/WebPaymentS2S/Merchant/refund"
+#AxisBankUpiStatusEnqUrl: "https://pingupi.axisbank.co.in/WebPaymentS2S/Merchant/checkstatusV3"
+AxisBankUpiVpaValidationUrl: "https://pingupi.axisbank.co.in/VpaValidation/VPA/ValidateVPA2"
+#AxisBankAllowVpaValidation: Y
+#AxisAllowCollectOnVPAFailure: N
+#AxisBankUpiExpiryTime: 15
+AxisBankUpiDecKey: "XXEy43GSZqdxwebF"
+
+################# End AXISBANK UPI Configurations ##############################
+
+
+
+################# Start AXISBANK NETBANKING Configurations ##############################
+
+AxisbankNBSaleUrl: "https://retail.axisbank.co.in/wps/portal/rBanking/AxisSMRetailLogin/axissmretailpage?AuthenticationFG.MENU_ID=RAESHP&AuthenticationFG.CALL_MODE=2&CATEGORY_ID="
+AxisbankNBRefundUrl: "https://www.axisbiconnect.co.in/axispaymentsverification/web/applications/QueryEnc.aspx"
+AxisbankNBReturnUrl: "https://secure.pay10.com/pgui/jsp/axisNBResponse"
+AxisbankNBStatusEnqUrl: "https://www.axisbiconnect.co.in/axispaymentsverification/web/applications/QueryEnc.aspx"
+
+################# End AXISBANK NETBANKING Configurations ##############################
+
+
+################# Start INGENICO Configurations ##############################
+INGENICOSaleUrl: "https://payments.paynimo.com/PaynimoProxy/services/TransactionLiveDetails"
+INGENICORefundUrl: "https://payments.paynimo.com/PaynimoProxy/services/TransactionLiveDetails"
+INGENICOReturnUrl: "https://secure.pay10.com/pgui/jsp/ingenicoResponse"
+INGENICOStatusEnqUrl: "https://payments.paynimo.com/PaynimoProxy/services/TransactionLiveDetails"
+INGENICOMandatoryFieldsEnroll: CARD_NUMBER,CARD_EXP_DT,CVV,MOP_TYPE,CUST_NAME,AMOUNT,CURRENCY_CODE
+
+################# End INGENICO Configurations ##############################
+
+
+
+
+################# Start PHONEPE Configurations ##############################
+PHONEPESaleUrl: "https://mercury-t2.phonepe.com/v4/debit"
+PHONEPERefundUrl: "https://mercury-t2.phonepe.com/v3/credit/backToSource"
+PHONEPEReturnUrl: "https://secure.pay10.com/pgui/jsp/phonepeResponse"
+PHONEPEStatusEnqUrl: "https://mercury-t2.phonepe.com/v3/transaction/"
+PHONEPEMandatoryFieldsEnroll: CARD_NUMBER,CARD_EXP_DT,CVV,MOP_TYPE,CUST_NAME,AMOUNT,CURRENCY_CODE
+
+################# End PHONEPE Configurations ##############################
+
+################# Start PAYTM Configurations ##############################
+PAYTMSaleUrl: "https://securegw-stage.paytm.in/order/process"
+PAYTMRefundUrl: "https://securegw-stage.paytm.in/refund/apply"
+PAYTMReturnUrl: "https://secure.pay10.com/pgui/jsp/paytmResponse"
+PAYTMStatusEnqUrl: "https://securegw-stage.paytm.in/merchant-status/api/v1/getPaymentStatus"
+PAYTMRefundStatusEnqURL: "https://securegw-stage.paytm.in/v2/refund/status"
+PAYTMMandatoryFieldsEnroll: CARD_NUMBER,CARD_EXP_DT,CVV,MOP_TYPE,CUST_NAME,AMOUNT,CURRENCY_CODE
+
+################# End PAYTM Configurations ##############################
+
+
+################# Start PHONEPE Configurations ##############################
+ASIANCHECKOUTSaleUrl: "https://secure.asiancheckout.com/pgui/jsp/merchantPaymentInit"
+ASIANCHECKOUTRefundUrl: "https://secure.asiancheckout.com/pgws/transact"
+ASIANCHECKOUTReturnUrl: "https://secure.pay10.com/pgui/jsp/asiancheckoutResponse"
+ASIANCHECKOUTStatusEnqUrl: "https://secure.asiancheckout.com/pgws/transact"
+ASIANCHECKOUTMandatoryFieldsEnroll: CARD_NUMBER,CARD_EXP_DT,CVV,MOP_TYPE,CUST_NAME,AMOUNT,CURRENCY_CODE
+
+################# End PHONEPE Configurations ##############################
+
+
+################# Start FIRSTDATA Configurations ##############################
+FirstDataEnrollmentUrl: "https://test.ipg-online.com/ipgapi/services"
+#FirstDataEnrollmentUrl: "https://www4.ipg-online.com/ipgapi/services"
+FirstDataMandatoryFieldsEnroll: CARD_NUMBER,CARD_EXP_DT,CVV,MOP_TYPE,CUST_NAME,AMOUNT,CURRENCY_CODE
+IciciAuthenticationId: WS3300900123._.1
+IciciAuthenticationPassword: x4dvj}!6QQ
+IdfcAuthenticationId: WS4300000001._.1
+IdfcAuthenticationPassword: W/yu6.y5dd
+FirstDataSchemasV1: "http://ipg-online.com/ipgapi/schemas/v1"
+FirstDataSchemasAPI: "http://ipg-online.com/ipgapi/schemas/ipgapi"
+FirstDataSchemasA1: "http://ipg-online.com/ipgapi/schemas/a1"
+FirstData3DSUrl: "http://127.0.0.1:8080/pgui/jsp/icici3ds"
+hash_algorithm: SHA256
+################# End FIRSTDATA Configurations ################################################ End FIRSTDATA Configurations ################################
+
+
+
+################# Start HDFC UPI Configurations ##############################
+HdfcUpiMerchantKey: a90f92e65a8ed9263c940eb4814f02f0
+HdfcUpiMcc: 6012
+
+#HdfcUpiSaleUrl: "http://192.168.1.5:9090/simulator/hdfcUpiCollect/collect"
+#HdfcUpiValaddUrl: "http://192.168.1.5:9090/simulator/hdfcUpi/vpaValidate"
+#HdfcUpiRefundUrl: "http://192.168.1.5:9090/simulator/hdfcUpiRefund/refund"
+
+HdfcUpiSaleUrl: "https://upitest.hdfcbank.com/upi/meTransCollectSvc"
+HdfcUpiRefundUrl: "https://upitest.hdfcbank.com/upi/refundReqSvc"
+HdfcUpiValaddUrl: "https://upitest.hdfcbank.com/upi/checkMeVirtualAddress"
+
+HdfcUpiStatusEnqUrl: "https://upitest.hdfcbank.com/upi/transactionStatusQuery"
+
+HdfcUpiStatusValue: T
+HdfcUpiExpiryTime: 30
+hdfcUpiLastValue: NA
+hdfcUpiMerchantVPA: irctcpay@hdfcbank
+hdfcUpiMID: HDFC000000625490
+hdfcUpiTransactionType: P2P
+hdfcUpiPaymentType: PAY
+hdfcUpiAesUtil: AES
+################# End HDFC UPI Configurations ##############################
+
+################# Start PAYU Configurations ##############################
+PAYUSaleUrl: "https://secure.payu.in/_payment"
+PAYUReturnUrl: "https://secure.pay10.com/pgui/jsp/payuResponse"
+#PAYURefundUrl: "https://info.payu.in/merchant/postservice.php?form=2"
+PAYURefundUrl: "https://info.payu.in/merchant/postservice.php?form=2"
+PAYUStatusEnqUrl: "https://info.payu.in/merchant/postservice.php?form=2"
+PAYURefundStatusEnqURL: "https://info.payu.in/merchant/postservice.php?form=2"
+################# End PAYU Configurations ##############################
+
+################# Start BANK OF BARODA Configurations ##############################
+BobSaleUrl: "https://ipg.bobgateway.com/IPG/VPAS.htm?actionVPAS=VbvVEReqProcessHTTP&trandata="
+bobLanguage: USA
+bobRefundURL: "https://ipg.bobgateway.com/IPG/tranPipe.htm?param=tranInit"
+bobStatusEnqURL: "https://ipg.bobgateway.com/IPG/tranPipe.htm?param=tranInit"
+bobUdf5Value: TrackID
+bobresponseURL: "https://secure.pay10.com/pgui/jsp/bobResponse"
+
+################# END BANK OF BARODA Configurations ##############################
+
+
+################# Start FSS Configurations ##############################
+FssSaleUrl: "https://merchanthub.fsspay.com/PGAggregator/MerchaggrPayment.htm?param=paymentInit&trandata="
+FssResponseURL: "https://secure.pay10.com/pgui/jsp/fssResponse"
+fssLanguage: USA
+fssRefundURL: "https://merchanthub.fsspay.com/PGAggregator/MerchaggrPayment.htm?param=supportInitTCPIP"
+fssStatusEnqURL: "https://merchanthub.fsspay.com/PGAggregator/MerchaggrPayment.htm?param=supportInitTCPIP"
+fssUdf5Value: trackid
+################# END FSS Configurations ##############################
+
+################# Start YESBANKCB Configurations ##############################
+YesBankCbExpiryTime: 30
+YesBankCbLastValue: NA
+YesBankCbSaleUrl: "https://sky.yesbank.in:444/app/live/upi/meTransCollectSvc"
+#YesBankCbStatusEnqUrl: "https://uatsky.yesbank.in:444/app/uat/upi/metransactionStatusQuery"
+YesBankCbStatusEnqUrl: "https://sky.yesbank.in:444/app/live/upi/meTransStatusQuery"
+YesBankCbRefundUrl: "https://sky.yesbank.in:444/app/live/upi/meRefundServerReq"
+YesBankCBExpiryType: "EXPAFTER"
+YesBankCBExpiryValue: "30"
+#YESBANK_UPI_HEADER_CLIENT_SECRET: "E2iH7nC5tR2nG1uR5pT3qT2vC3qO7tL7yY3wI8bC3kR8iO6tU3"
+YESBANK_UPI_HEADER_CLIENT_SECRET: "uP5oN5fO6xH7fF3aW0nB0nD8rF1uG7dQ6cX8tH5eY8aU7vF4xK"
+#YESBANK_UPI_HEADER_CLIENT_ID: "81d6c907-f26f-4acb-a7aa-a0fbc817aeb5"
+YESBANK_UPI_HEADER_CLIENT_ID: "15a218b1-8985-459e-92fe-eb3374744e19"
+#YESBANK_MERCHANT_KEY: "49d8d610ac2efd006a0181cc900163fc"
+YESBANK_MERCHANT_KEY: "5b01760f7a00a7bf61292d5519c374b1"
+#YesBank_Upi_Merchant_Key: "49d8d610ac2efd006a0181cc900163fc"
+YesBank_Upi_Merchant_Key: "5b01760f7a00a7bf61292d5519c374b1"
+YesBankVpaUrl: https://sky.yesbank.in:444/app/live/upi/checkVirtualAddressME
+YesBankSkipVpaValidation: N
+YesBankAllowVpaValidation: N
+YesBankAllowStatusEnquiry: N
+CashlessoPfxPath: "C:/Users/shaiw/OneDrive/Desktop/newKS/Cashlesso_ssl_CASigned_cer.pfx"
+CashlessoPassPhrase : "OAxENHcMHWFALa3PH1pf"
+
+################# End YESBANKCBConfigurations ##############################
+
+################ Start GOOGLEPAY Configurations ##############################
+googlePayscopeUrl: "https://www.googleapis.com/auth/nbupaymentsmerchants"
+googlePayTokenUrl : "https://www.googleapis.com/oauth2/v4/token"
+googlePayPushNotificationUrl: "https://nbupayments.googleapis.com/v1/merchantPayments:initiate"
+googlePayTransactionDetail : "https://nbupayments.googleapis.com/v1/merchantTransactions:get"
+################# End GOOGLEPAY  Configurations ##############################
+
+################# Start AGREEPAY Configurations ##############################
+
+#AGREEPAYSaleUrl: "https://biz.aggrepaypayments.com/v2/paymentrequest"
+AGREEPAYSaleUrl: "https://biz.aggrepaypayments.com/v2/paymentseamlessrequest"
+AGREEPAYReturnUrl: "https://secure.pay10.com/pgui/jsp/agreepayResponse"
+AGREEPAYRefundUrl: "https://biz.aggrepaypayments.com/v2/refundrequest" 
+AGREEPAYStatusEnqUrl: "https://biz.aggrepaypayments.com/v2/paymentstatus"
+
+#AGREEPAYSaleUrl: "https://biz.aggrepaypayments.com/v2/paymentrequest"
+#AGREEPAYReturnUrl: "https://secure.pay10.com/pgui/jsp/agreepayResponse"
+#AGREEPAYRefundUrl: "https://biz.aggrepaypayments.com/v2/refundrequest" 
+#AGREEPAYStatusEnqUrl: "https://biz.aggrepaypayments.com/v2/paymentstatus"
+
+################# End AGREEPAY Configurations ##############################
+
+################# Start EASEBUZZ Configurations ##############################
+
+EASEBUZZSaleUrl: "https://pay.easebuzz.in/initiate_seamless_payment/"
+EASEBUZZReturnUrl: "https://secure.pay10.com/pgui/jsp/easebuzzResponse"
+#EASEBUZZRefundUrl: "https://dashboard.easebuzz.in/transaction/v1/refund"
+EASEBUZZRefundUrl: "https://dashboard.easebuzz.in/transaction/v1/refund"
+EASEBUZZStatusEnqUrl: "https://dashboard.easebuzz.in/transaction/v1/retrieve"
+
+################# End EASEBUZZ Configurations ##############################
+
+################# Start FEDERALBANK NETBANKING Configurations ##############################
+ 
+FederalbankNBSaleUrl: "https://fed.northakross.in/v2/paymentseamlessrequest"
+FederalbankNBRefundUrl: "https://fed.northakross.in/v2/refundrequest"
+FederalbankNBStatusEnqUrl: "https://fed.northakross.in/v2/paymentstatus"
+FederalbankNBReturnUrl: "https://secure.pay10.com/pgui/jsp/federalBankNBResponse"
+ 
+#FederalbankNBSaleUrl: "https://uatfederal.northakross.in/v2/paymentseamlessrequest"
+#FederalbankNBRefundUrl: "https://uatfederal.northakross.in/v2/refundrequest"
+#FederalbankNBStatusEnqUrl: "https://uatfederal.northakross.in/v2/paymentstatusv1"
+#FederalbankNBReturnUrl: "http://localhost:8080/pgui/jsp/federalBankNBResponse"
+ 
+FEDERALNB_ADD_SURCHARGE: Y
+FEDERALBANKNB : 1027
+NBFEDERAL : NB
+################ End FEDERALBANK NETBANKING Configurations ##############################
+
+
+################# Start Yesbank NETBANKING Configurations ##############################
+
+YESBANK_SALE_RETURN_URL: "https://yesonline.yesbank.co.in/digx/cz/v1/payments/externaltransfer/create"
+YESBANK_REFUND_REQUEST_URL: ""
+YESBANK_STATUS_ENQ_REQUEST_URL: "https://yesonline.yesbank.co.in/digx/cz/v1/payments/externaltransfer/verify"
+YESBANKNBReturnUrl: "https://secure.pay10.com/pgui/jsp/yesbankNBResponse"
+
+YESBANKNB_ADD_SURCHARGE: Y
+YESBANKNBMOP: 1001
+YESBANKNB: NB
+################ End Yesbank NETBANKING Configurations ##############################
+
+
+
+AGREEPAY: CC,DC,NB,WL,UP
+AGREEPAY_ADD_SURCHARGE: Y
+AGREEPAYDCMOP: VI,MC,MS,RU,AX
+AGREEPAYCCMOP: VI,MC,DN,DI,RU
+AGREEPAYUPMOP: UP
+#AGREEPAYNBMOP : 1110,1091,1005,1093,1009,1064,1055,1094,1063,1060,1034,2004,1026,3017,3018,1070,1027,1004,1013,1003,1030,1107,1069,1049,1054,1041,1032,1048,1012,1095,1042,1296,2013,1053,1056,1045,1097,1030,1098,1065,1103,1038,1046,1044,1001,1092,2015,1106,1206,1201,3333,1292,1300,1301,1302,1303,1304,1305,1306,1307,1308,1309,1310,1311,1312,1313,1314,1315
+AGREEPAYNBMOP : 1005,1206,1093,1009,1064,1094,1055,1063,1060,2004,1026,1070,1027,1004,1013,1069,1049,1054,1003,1107,1041,1032,1048,1012,1296,1045,1030,1097,1056,1065,1038,1103,1001,1092,1292,1106,1315,1312,1314,2015,1201,1313
+AGREEPAYWLMOP: MWL,OLAWL,JMWL,AWL,PPL,APWL,PPWL
+
+
+
+################# Email Expiry Configurations #####################################
+emailExpiredInHour: "24"
+emailExpiredInMinute: "15"
+################# End shopify Configurations #####################################
+
+################# Start shopify Configurations #####################################
+ShopifyResponseFields: PAY_ID,ORDER_ID,CURRENCY_CODE,TEST,AMOUNT,TXN_ID,RESPONSE_DATE_TIME,STATUS,HASH
+################# End shopify Configurations #####################################
+
+###############################invoice URL#################################################
+#invoiceURL: http://uat.irctcipay.com/user/jsp/payInvoice?svalue=
+invoicePromotionalURL: "https://secure.pay10.com/crm/jsp/payInvoiceEvent?svalue="
+#invoiceReturnUrl: "http://uat.irctcipay.com/user/jsp/response.jsp"
+
+################################# Emailre Logo URL #########################################
+emailerLogoURL: "https://secure.pay10.com/crm/image/logo.jpg"
+
+####################################Document File Format####################################
+invoiceURL: "https://secure.pay10.com/pgui/jsp/reviewInvoice?svalue="
+invoiceReturnUrl: "https://secure.pay10.com/pgui/jsp/invoiceResponse.jsp"
+invoiceURLEvent: "https://secure.pay10.com/crm/jsp/payInvoiceEvent?svalue="
+invoicePaymentLink: "https://secure.pay10.com/pgui/jsp/paymentrequest"
+
+#################################JMS URL##############################
+GetUrl :  "http://192.168.43.11:8080/receive;"
+PostUrlForScheduledMsg :  "http://192.168.43.11:8080/scheduledEmail;"
+PostUrlForTransactionalMsg :  "http://192.168.43.11:8080/transactionalMessage;"
+PostUrlForSms :  "http://192.168.43.11:8080/smsservice;"
+PostUrlForSummaryReportStatusUpdate :  "http://127.0.0.1:8080/summaryReportStatus;"
+#################################JMS URL##############################
+
+#################################URL SHORTNER##############################
+GoogleURLShortner :  "https://www.googleapis.com/urlshortener/v1/url?key=AIzaSyAtIjFUqReSEeoKWryPbpVInv2lPmG0NQA"
+#################################URL SHORTNER##############################
+
+#InternalWebserviceAllowedIP : 192\.168\.1\.23
+InternalWebserviceAllowedIP : ..*\..*\..*\..*
+
+
+###############################ThreadPool########################
+
+corePoolSize: 5
+maxPoolSize: 100
+maxThreadAliveTime: 180
+
+
+
+##########################################******************ACQUIRERMOP_PROPERTIES**************######################################################
+DCMOP: VI,MC,MS,RU
+CCMOP: VI,AX,DI,MC,DN,EZ
+#NBMOP : "1029,1091,1005,1043,1009,1064,1007,1055,1094,1063,1008,1010,1060,1034,1041,1040,1292,1026,1070,1027,1004,1100,1013,1069,1049,1054,1003,1062,1032,1048,1012,1042,1296,1002,1053,1045,1050,1039,1030,1037,1068,1061,1065,1021,1018,1017,1019,1020,1031,1023,1103,1038,1046,1044,1001,1025,2001,1200,1092,1093,1104,1096,2004,1095,2011,2013,1097,2015,1056,1098,1201,1072,1202,1203,1204,1205,1206,1207,1107,1208,1209,1106,1210,1211,1212,1213,1214,1022,1215,1216,1217,1218,1219,1220,1221,1222,3333,1292,1300,1301,1302,1303,1304,1305,1306,1307,1308,1309,1310,1311,1312,1313,1314,1315"
+NBMOP : "1005,1206,1043,1093,1009,1064,1094,1055,1063,1010,1060,1104,1040,2004,1026,1070,1207,1027,1004,1102,1013,1069,1049,1054,1003,1107,1041,1032,1048,1012,1296,1002,1045,1030,1097,1056,1065,1038,1103,1001,1099,1092,1292,1100,2007,1101,1096,1216,2017,1220,1106,1212,1315,1214,1211,1312,2003,1208,1314,1072,1204,1205,2010,1202,2011,2015,1201,1203,1209,1313"
+WALLET: PPL,MWL,OLAWL,MMWL,APWL,AWL,FCWL,GPWL,ICWL,JMWL,MPWL,OXWL,PPWL,SBWL,ZCWL,YBW,ICC,PCH,DCW
+UPI: UP,GP
+
+
+TXNTYPE: AUTH,SALE,REFU
+
+ATOM: CC,DC,NB,UP
+AXISBANK: NB,UP
+APBL: NB,WL
+MOBIKWIK: WL
+INGENICO: CC,DC
+PHONEPE: WL
+PAYTM: WL
+BILLDESK: NB,WL,UP
+ASIANCHECKOUT: CC,DC,UP,NB,WL
+YESBANKCB_ADD_SURCHARGE: Y
+
+
+FSS_ADD_SURCHARGE: N
+HDFC_ADD_SURCHARGE: N
+BOB_ADD_SURCHARGE: Y
+DIRECPAY_ADD_SURCHARGE: N
+YESBANK_ADD_SURCHARGE: Y
+#KOTAK_ADD_SURCHARGE: Y
+FIRSTDATA_ADD_SURCHARGE: Y
+ISGPAY_ADD_SURCHARGE: Y
+ATOM_ADD_SURCHARGE: N
+AXIS_ADD_SURCHARGE: N
+APBL_ADD_SURCHARGE: Y
+MOBIKWIK_ADD_SURCHARGE: Y
+INGENICO_ADD_SURCHARGE: Y
+PHONEPE_ADD_SURCHARGE: Y
+PAYTM_ADD_SURCHARGE: Y
+BILLDESK_ADD_SURCHARGE: Y
+ASIANCHECKOUT_ADD_SURCHARGE: Y
+################## ACQUIRER SUPPORTED MOP_TYPE ##################################
+
+#DIRECPAYNB: "1029,1091,1005,1043,1009,1064,1007,1055,1094,1063,1008,1010,1060,1034,1292,1026,1070,1027,1004,1100,1013,1069,1049,1054,1003,1062,1041,1040,1032,1048,1012,1042,1296,1002,1053,1045,1050,1039,1030,1037,1068,1061,1065,1021,1018,1017,1019,1020,1031,1023,1103,1038,1046,1044,1001,1025"
+DIRECPAYNB: "1005,1043,1009,1064,1094,1055,1063,1010,1060,1040,1026,1070,1027,1004,1013,1069,1049,1054,1003,1041,1032,1048,1012,1296,1002,1045,1030,1065,1038,1103,1001,1292,1100"
+
+DIRECPAYCCMOP: VI,MC,RU,MS,AX
+DIRECPAYDCMOP: VI,MC,MS,RU,AX
+
+#ATOMNB: "1029,1091,1005,1043,1009,1064,1007,1055,1094,1063,1008,1010,1060,1034,1292,1026,1070,1027,1004,1100,1013,1069,1049,1054,1003,1062,1041,1040,1032,1048,1012,1042,1296,1002,1053,1045,1050,1039,1030,1037,1068,1061,1065,1021,1018,1017,1019,1020,1031,1023,1103,1038,1046,1044,1001,1025"
+
+
+#ATOMNB: "2001,1110,1091,1005,1092,1093,1009,1064,1055,1063,1034,1094,1040,1026,1070,1027,1004,1013,1003,1106,1107,1069,1049,1054,1041,1032,1048,1012,1095,1042,1296,1101,1002,1053,1030,1056,1065,1103,1038,1046,1044,1001"
+ATOMNB: "1005,1093,1009,1064,1094,1055,1063,1040,1026,1070,1027,1004,1013,1069,1049,1054,1003,1107,1041,1032,1048,1012,1296,1002,1030,1056,1065,1038,1103,1001,1092,1101,1106"
+
+ATOMCCMOP: VI,MC,RU,AX
+ATOMDCMOP: VI,MC,MS,AX,RU
+ATOMUPIMOP: UP
+
+FSSDCMOP: VI,MC,MS,RU
+FSSCCMOP: VI,MC,DN,DI
+FSSUPIMOP: UP
+FSSNBMOP : 1005,1013
+FSSWLMOP : PPL,MWL,OLAWL,APWL,AWL,FCWL,GPWL,ICWL,JMWL,MPWL,OXWL,PPWL,SBWL,ZCWL
+
+FIRSTDATADCMOP: VI,MC,MS,RU
+FIRSTDATACCMOP: VI,MC,DN,DI
+
+
+BOBDCMOP: VI,MC,MS,RU
+BOBCCMOP: VI,MC,DN,RU
+BOBUPMOP: UP
+
+CYBERSOURCEDCMOP: VI,MC,MS,RU
+CYBERSOURCECCMOP: VI,MC,DN,DI
+YESBANKCBMOP: UP,GP
+
+KOTAK: CC,DC,NB,UP
+KOTAK_ADD_SURCHARGE: Y
+
+KOTAKDCMOP: VI,MC,MS,RU
+KOTAKCCMOP: VI,MC,DN,DI
+KOTAKUPIMOP: UP
+KOTAKNBMOP: 1012
+
+BILLDESKUPMOP: UP
+BILLDESKWLMOP: OXWL,YBWL,ICC,PCH,DCW
+#BILLDESKNBMOP: "1030,1004,1013,1012,1091,1200,1092,1043,1093,1064,1063,1055,1104,1096,1034,1094,1026,1040,2004,1070,1027,1003,1054,1069,1049,1041,1032,1048,1095,1042,2011,2013,1296,1097,1045,2015,1056,1098,1201,1038,1103,1046,1044,1001,1072,1202,1203,1204,1205,1206,1207,1107,1208,1053,1209,1106,1210,1211,1212,1213,1214,1215,1216,1217,1218,1219,1220,1221,1222,1005,1065"
+BILLDESKNBMOP: "1206,1043,1093,1064,1094,1055,1063,1104,1102,1013,1069,1049,1054,1003,1107,1041,1032,1048,1012,1296,1045,1030,1097,1056,1038,1103,1001,1092,1096,1216,1220,1106,1212,1214,1211,1208,1072,1204,1205,1202,2011,2015,1201,1203,1209"
+
+
+
+ASIANCHECKOUTDCMOP: VI,MC,RU
+ASIANCHECKOUTCCMOP: VI,MC,RU
+ASIANCHECKOUTUPMOP: UP
+#ASIANCHECKOUTNBMOP : "1030,1004,1013,1012,1091,1200,1092,1043,1093,1064,1063,1055,1104,1096,1034,1094,1026,1040,2004,1070,1027,1003,1054,1069,1049,1041,1032,1048,1095,1042,2011,2013,1296,1097,1045,2015,1056,1098,1201,1038,1103,1046,1044,1001,1072,1202,1203,1204,1205,1206,1207,1107,1208,1053,1209,1106,1210,1211,1212,1213,1214,1215,1216,1217,1218,1219,1220,1221,1222"
+ASIANCHECKOUTNBMOP : "1206,1043,1093,1064,1094,1055,1063,1104,1040,2004,1026,1070,1207,1027,1004,1013,1069,1049,1054,1003,1107,1041,1032,1048,1012,1296,1045,1030,1097,1056,1038,1103,1001,1092,1096,1216,1220,1106,1212,1214,1211,1208,1072,1204,1205,1202,2011,2015,1201,1203,1209"
+ASIANCHECKOUTWLMOP : PPL,MWL,OLAWL,APWL,AWL,FCWL,GPWL,ICWL,JMWL,MPWL,OXWL,PPWL,SBWL,ZCWL
+
+
+ICICIMPGSDCMOP: VI,MC,MS,RU
+ICICIMPGSCCMOP: VI,MC,DN,DI
+
+ISGPAY: CC,DC,NB
+ISGPAYDCMOP: VI,MC,MS,RU
+ISGPAYCCMOP: VI,MC,MS,RU
+#ISGPAYNBMOP: 1110,1091,1005,1009,1064,1092,1093,1055,1094,1063,1010,1060,1034,1207,1040,1070,1026,1106,1027,1004,1013,1003,1107,1069,1054,1049,1041,1072,1048,1032,1095,1042,1096,1002,1296,1053,1145,1056,1030,1097,1065,1038,1046,1044,1103,1001
+ISGPAYNBMOP: 1005,1093,1009,1064,1094,1055,1063,1010,1060,1040,1026,1070,1207,1027,1004,1013,1069,1049,1054,1003,1107,1041,1032,1048,1296,1002,1030,1097,1056,1065,1038,1103,1001,1092,1096,1106,1072
+AXISBANKDCMOP: VI,MC,MS,RU
+AXISBANKCCMOP: VI,MC,DN,DI
+AXISBANKUPMOP: UP
+AXISBANKNBMOP : 1005,1013
+
+APBLWLMOP : AWL
+APBLNBMOP : ""
+
+MOBIKWIKWLMOP : OXWL,YBW,ICC,MWL,JMWL,PPL
+
+PHONEPEWLMOP : PPWL
+
+INGENICOCCMOP: VI,MC,RU
+INGENICODCMOP: VI,MC,MS
+
+PAYTMWLMOP: PPL
+
+PAYU: CC,DC,NB,WL,UP
+PAYU_ADD_SURCHARGE: N
+PAYUCCMOP: VI,MC,RU,MS,AX
+PAYUDCMOP: VI,MC,MS,RU,AX
+#PAYUNBMOP: "2002,1091,1005,1064,2003,1055,1094,1063,1060,1034,1104,2004,1026,1040,1070,1004,1013,1107,1004,1013,1107,1069,1049,1054,1003,1041,1072,1032,2007,1012,2008,1095,2010,1042,2011,1296,1101,2013,1056,1030,2015,1098,1065,1027,1048,1045,1103,2017,1038,1046,1044"
+PAYUNBMOP: "1005,1064,1094,1055,1063,1060,1104,1040,2004,1026,1070,1027,1004,1013,1069,1049,1054,1003,1107,1041,1032,1048,1012,1296,1045,1030,1056,1065,1038,1103,2007,1101,2017,2003,1072,2010,2011,2015"
+
+PAYUWLMOP: ICWL,AWL,FCWL,OXWL,HPWL,AECWL,OLAWL,YBWL,PCWL,JMWL,CBWL,APWL,PPL,PPWL
+PAYUUPMOP: UP
+
+CASHFREE: CC,DC,NB,WL,UP
+CASHFREE_ADD_SURCHARGE: N
+CASHFREEDCMOP: VI,MC,MS,RU
+CASHFREECCMOP: VI,MC,DN,DI,RU
+CASHFREEUPMOP: UP
+#CASHFREENBMOP : 1110,1091,1005,1093,1009,1064,1055,1094,1063,1060,1034,2004,1026,1070,1027,1004,1013,1003,1107,1069,1049,1054,1041,1032,1048,1012,1095,1042,1296,2013,1053,1056,1045,1097,1030,1098,1065,1103,1038,1046,1044,1001,1092,2015,1106,1206,1201,3333,1292,1300,1301,1302,1303,1304,1305,1306,1307,1308,1309,1310,1311,1312,1313,1314,1315
+CASHFREENBMOP : 1005,1206,1093,1009,1064,1094,1055,1063,1060,2004,1026,1070,1027,1004,1013,1069,1049,1054,1003,1107,1041,1032,1048,1012,1296,,1045,1030,1097,1056,1065,1038,1103,1001,1092,1292,1106,1315,1312,1314,2015,1201,1313
+CASHFREEWLMOP: MWL,OLAWL,JMWL,AWL,PPL,APWL,PPWL
+
+
+EASEBUZZ: CC,DC,NB,WL,UP
+EASEBUZZ_ADD_SURCHARGE: Y
+EASEBUZZDCMOP: VI,MC,MS,RU
+EASEBUZZCCMOP: VI,MC,DN,DI
+EASEBUZZUPMOP: UP
+#EASEBUZZNBMOP: 1093,1027,1041,1095,1053,1097,1045,1201,1206,1012,1110,1060,1005,1091,1200,1092,1043,1064,1063,1055,1104,1096,1034,1094,1026,1040,2004,1070,1003,1054,1069,1049,1032,1048,1303,1042,2013,1296,1217,1013,1056,1098,1065,1038,1103,1046,1044,1001,1072,1202,1203,1205,1099,1004,1039,1030,1050,1037,1068,1107,1208,1061,1209,1040,1009,1106,1300,1145,1221,1222,1315,1100
+EASEBUZZNBMOP: 1005,1206,1043,1093,1009,1064,1094,1055,1063,1060,1104,2004,1026,1070,1027,1004,1013,1069,1049,1054,1003,1107,1041,1032,1048,1012,1296,1045,1030,1097,1056,1065,1038,1103,1001,1099,1092,1100,1096,1106,1315,1208,1072,1205,1202,1201,1203,1209
+EASEBUZZWLMOP: JMWL,OLAWL,OXWL,PCWL,ICC,PPL,MWL,AWL,ICWL
+
+##########################################******************ALPHABETIC-CURRENCY**************######################################################
+
+CURRENCY_784: AED
+CURRENCY_036: AUD
+CURRENCY_124: CAD
+CURRENCY_978: EUR
+CURRENCY_826: GBP
+CURRENCY_356: INR
+CURRENCY_840: USD
+
+
+##########################################******************ALPHABETIC-TO-NUMERIC-CURRENCY**************######################################################
+
+
+AED: 784
+AUD: 036
+CAD: 124
+EUR: 978
+GBP: 826
+INR: 356
+USD: 840
+
+
+##########################################******************AMEX-PROPPERTIES**************######################################################
+
+
+vpc_Version: $1
+vpc_Command: $pay
+vpc_AccessCode: PASSWORD
+vpc_Merchant: MERCHANT_ID
+vpc_Locale: $en
+vpc_Gateway: $threeDSecure
+vpc_Card: MOP_TYPE
+#vpc_Card: $Amex
+#vpc_ReturnURL: "$https://www.pg.mmadpay.com/user/jsp/amexresponse"
+#vpc_ReturnURL: "$http://uat.irctcipay.com/user/jsp/amexresponse"
+vpc_ReturnURL: "$https://secure.pay10.com/pgui/jsp/migsresponse"
+vpc_CardNum: CARD_NUMBER
+vpc_CardExp: CARD_EXP_DT
+vpc_CardSecurityCode: CVV
+vpc_Amount: AMOUNT
+vpc_OrderInfo: OID
+vpc_MerchTxnRef: TXN_ID
+
+
+
+##########################################******************AZURE-KEY-VAULT-PROPPERTIES**************######################################################
+
+keyVaultID: df4aba4f-1204-46da-8a9b-1dca25db6bfa
+keyVaultPass: "N3g+eTKHWXOfSq1gzwUAlRDZNQI29hae345Mt+aRgWs="
+keyIdentifier: "https://mmadtestvault.vault.azure.net/keys/mmadtestkey/ee65a4bae83f4d42b3c7dbc484e346ff"
+
+######################################********************EMAILER-PROPERTY************************#############################
+
+#########################################################################
+#Email Server Detail
+MailSender: noreply@pay10.com
+MailUserName: noreply@pay10.com
+#MailPassword: Pgsmtp@2021
+MailPassword: Happy@2022
+
+#########################################################################
+
+
+############################# UAT URL ###################################
+EmailTransactionAuthenticationUrl: "http://192.168.43.15:8080/crm/jsp/txnAuthentication"
+############################# UAT URL ###################################
+
+#Reset Password
+######################### PRODUCTION URL ################################
+ResetPasswordUrl: "https://secure.pay10.com/crm/jsp/resetPassword"
+
+#################################Email Service Provider ##############################
+
+
+#################################TxnPushNotification Service Provider ##############################
+updateRequestNotificationUrl: "http://192.168.1.30:8084/updateRequestNotificationEmail"
+updateApproveRejectNotificationUrl: "http://192.168.1.30:8084/updateApproveRejectNotificationServiceTaxEmail"
+
+######################################********************INDUSTRY-CATEGORY************************#############################
+
+ACCOUNTING_AND_FINACIAL_SERVICES: Accounting and Financial services
+AGRICULTURE: Agriculture
+BANKING_AND_FINANCE: Banking and Finanace
+CONSULTING: Consulting
+EDUCATION: Education
+ECOM: Ecom
+ELECTRONICS: Electronics
+ENERGY: Energy
+ENTERTAINMENT: Entertainment
+FOOD_AND_BEVERAGE: Food and  Beverage
+HOTELS: Hotels
+HEALTHCARE: Healthcare
+INFORMATION_TECHNOLOGY_AND_SERVICES: Information Technology and services
+INSURANCE: Insurance
+MANUFACTURING: Manufacturing
+MEDIA_AND_ADVERTISEMENT: Media and Advertisement
+NGO: NGO
+PHARMACEUTICAL: Pharmaceutical
+REAL_ESTATE_AND_CONSTRUCTION: Real estate and Construction
+RETAIL: Retail
+TELECOM: Telecom
+TRAVEL: Travel
+OTHER: Other
+
+
+#########################**************************INDUSTRY_SUB_CATEGORY*****************************################################
+
+
+INDUSTRY_SUB_CATEGORY_BANKING_AND_FINANCIAL_SERVICES: Mutual Funds,Lending,Cryptocurrency,NBFC,Coopratives,Banking Services,Pension Funds,Forex,Accounting and Taxes,Financial Advisor,Stock Brockerage and Trading,Other
+INDUSTRY_SUB_CATEGORY_EDUCATION: School,College,University,Professional or Vocational Courses,Distance Learning,Day Care,Coaching Institute,Online Coaching,Other
+INDUSTRY_SUB_CATEGORY_ECOM: Marketplace,Agricultural Products,Apparel,Books and Other Print Media,Cosmetics,Coupons and Deals,Electronics, Furniture,Grocery,Rental Services,Flower and Gifts,Office Supplies,Wholesale,Religious Products,Sports Goods,Art and Craft,Other
+INDUSTRY_SUB_CATEGORY_FOOD_AND_BEVERAGE: Online Food Ordering,Restaurants,Food Court/Cafetaria,Catering Services,Bar and Pubs,Other
+INDUSTRY_SUB_CATEGORY_TRAVEL_AND_HOSPITALITY: Hotels,Aviation,Travel Agency,Other
+INDUSTRY_SUB_CATEGORY_HEALTHCARE: Pharmacy,Clinic,Hospital,Diagnostics,Gym and Fitness,Dieat and Health Consulting,Other
+INDUSTRY_SUB_CATEGORY_TRANSPORT: Cab and Auto Services,Metro and Train Ticket,Bus Tickets,Other
+INDUSTRY_SUB_CATEGORY_INFORMATION_TECHNOLOGY_AND_SERVICES: SaaS,Platform,IT Infrastructure,Consulting and Outsourcing,Product Developemnt and Hosting,Other
+INDUSTRY_SUB_CATEGORY_INSURANCE: General Insurance,Health Insurance,Aggregator Services,Other
+INDUSTRY_SUB_CATEGORY_MEDIA_AND_ENTERTAINMENT: Video on Demand,Streaming Services,Multiplexes,Amusement Park,Events and Movie Tickets,News,Other
+INDUSTRY_SUB_CATEGORY_ADVERTISING_SERVICES: Advertising Services,Digital Marketing,Other
+INDUSTRY_SUB_CATEGORY_SOCIAL: NGO,Non Profit Organization,Other
+INDUSTRY_SUB_CATEGORY_REAL_ESTATE_AND_CONSTRUCTION: Developer,Facility Management,RWA,Rental Servies,Other
+INDUSTRY_SUB_CATEGORY_UTILITY_BILLS: Electricity,Mobile recharhe and Bill payments,Gas,Water,DTH,Internet Service Provider,Cabel Operator,Aggregation Services,Other
+INDUSTRY_SUB_CATEGORY_LOGISTICS: Shipping,Freight Management,Courier Services,Other
+INDUSTRY_SUB_CATEGORY_ONLINE_GAMING: Game Developer and Distributor,Fantasy Sports,Skill Based Games,Other
+INDUSTRY_SUB_CATEGORY_GOVERNMENT_BODIES: Tax Collection,Utility Payments,Examination Fee,Other
+INDUSTRY_SUB_CATEGORY_OTHER: Other
+
+
+
+
+#########################**************************INDUSTRY_ID*****************************################################
+
+INDUSTRY_ID_ACCOUNTING_AND_FINACIAL_SERVICES: Order Id
+INDUSTRY_ID_AGRICULTURE: Order Id
+INDUSTRY_ID_BANKING_AND_FINANCE: Order Id
+INDUSTRY_ID_CONSULTING: Order Id
+INDUSTRY_ID_EDUCATION: Order Id
+INDUSTRY_ID_ECOM: Order Id
+INDUSTRY_ID_ELECTRONICS=: Order Id
+INDUSTRY_ID_ENERGY: Order Id
+INDUSTRY_ID_ENTERTAINMENT: Order Id
+INDUSTRY_ID_FOOD_AND_BEVERAGE: Order Id
+INDUSTRY_ID_HOTELS: Order Id
+INDUSTRY_ID_HEALTHCARE: Order Id
+INDUSTRY_ID_INFORMATION_TECHNOLOGY_AND_SERVICES: Order Id
+INDUSTRY_ID_INSURANCE: Order Id
+INDUSTRY_ID_MANUFACTURING: Order Id
+INDUSTRY_ID_MEDIA_AND_ADVERTISEMENT: Order Id
+INDUSTRY_ID_NGO: Order Id
+INDUSTRY_ID_PHARMACEUTICAL: Order Id
+INDUSTRY_ID_REAL_ESTATE_AND_CONSTRUCTION: Order Id
+INDUSTRY_ID_RETAIL: Order Id
+INDUSTRY_ID_TELECOM: Order Id
+INDUSTRY_ID_TRAVEL: Booking Id
+INDUSTRY_ID_OTHER: Order Id
+
+
+#####################################*******************************MERCHANT_PERMISSIONS**********************########################################
+
+
+MERCHANT_PERMISSIONS_CREATE_INVOICE :   invoice,invoiceSearch,invoiceSearchAction,invoiceEvent,saveInvoice
+MERCHANT_PERMISSIONS_VIEW_INVOICE :   invoice,invoiceSearch,invoiceSearchAction,invoiceEvent,
+MERCHANT_PERMISSIONS_VIEW_SEARCH_PAYMENT :   transactionSearch,addUser,searchUser,loginHistoryRedirectUser,addUserAction,editUserCallAction,viewChargeback,
+MERCHANT_PERMISSIONS_VIEW_CASHBACK :   viewChargeback,
+MERCHANT_PERMISSIONS_DEFAULT : loginHistoryAction,loginHistorySubUserAction,merchantProfile,setDefaultCurrency,editUserCallAction,editSubUserDetails,
+
+
+#######################################******************************MONGO_DB***************************#########################################
+
+
+MONGO_DB_dbName: pay10
+MONGO_DB_collectionName: transaction
+MONGO_DB_host: 10.10.5.5
+MONGO_DB_port: 27017
+MONGO_DB_mongoURIprefix: "mongodb://"
+MONGO_DB_mongoURIsuffix: "@10.10.5.5:27017/pay10?maxPoolSize=30000&minPoolSize=100"
+MONGO_DB_username: pay10dbuser
+MONGO_DB_password: CEFozJlGst60awXtDn5
+MONGO_DB_reportingCollectionName: reporting
+MONGO_DB_settlementCollectionName: nodalTransactions
+MONGO_DB_settledTransactionsName: settledTransactions
+MONGO_DB_summaryTransactionsName: summaryTransactions
+MONGO_DB_duplicateSettlementName: duplicateSettlements
+MONGO_DB_smsCollectionName : smsCollection
+MONGO_DB_statusEnquiryCollectionName : pendingStatusTransactions
+MONGO_DB_statusEnquiryHistoryCollectionName : pendingStatusHistoryTransactions
+MONGO_DB_dashboardPopulatorCollectionName: dashboardPopulatorCollection
+MONGO_DB_smartRouterCollectionName: smartRouterCollection
+MONGO_DB_cardSaveTokenCollectionName: cardSaveTokenCollection
+MONGO_DB_binDbCollectionName: binDbCollection
+MONGO_DB_billingDetails: billingDetails
+MONGO_DB_invoiceCollectionName: customerInvoice
+MONGO_DB_transactionStatus: transactionStatus
+MONGO_DB_transactionStatusException: transactionStatusException
+MONGO_DB_transactionStatistics: transactionStatistics
+MONGO_DB_fraudPreventionCollectionName: fraudPreventionCollection
+MONGO_DB_virtualAccountTransactionsCollectionName: virtualAccountTransactions
+MONGO_DB_nodalPayoutBatchSummaryCollectionName: nodalPayoutBatchSummary
+MONGO_DB_merchantVirtualAccountProfileCollectionName: merchantVirtualAccount
+MONGO_DB_webhookRecords: webhookRecords
+MONGO_DB_routerConfig: routerConfig
+#######################################******************************END MONGO_DB***************************#########################################
+
+
+
+ServiceTaxUpdateRequest: Service Tax update requested for Business Type 
+ServiceTaxUpdateApprove: Service Tax update requested approved for Business Type 
+ServiceTaxUpdateReject: Service Tax update requested rejected for Business Type
+ServiceTaxUpdated: Service tax has been updated for Business Type  
+
+
+MerchantMappingUpdateRequest: Merchant Mapping update requested for Merchant 
+MerchantMappingUpdateApprove: Merchant Mapping update requested approved for Merchant 
+MerchantMappingUpdateReject: Merchant Mapping update requested rejected for Merchant 
+MerchantMappingUpdated: Merchant Mapping has been updated for Merchant 
+
+
+ResellerMappingUpdateRequest: Reseller Mapping update requested for Merchant
+ResellerMappingUpdateApprove: Reseller Mapping update requested approved for Merchant
+ResellerMappingUpdateReject: Reseller Mapping update requested rejected for Merchant
+
+TDRUpdateRequest: TDR update requested for Merchant
+TDRUpdateApprove: TDR Mapping update requested approved for Merchant
+TDRUpdateReject: TDR Mapping update requested rejected for Merchant
+TDRUpdated: TDR Mapping has been updated for Merchant  
+
+BankSurchargeUpdated: Bank Surcharge updated for Merchant
+BankSurchargeUpdateRequest: Bank Surcharge update requested for Merchant
+BankSurchargeUpdateApprove: Bank Surcharge update requested approved for Merchant
+BankSurchargeUpdateReject: Bank Surcharge update requested rejected for Merchant
+
+MerchantSurchargeUpdated: Merchant Surcharge updated for Merchant
+MerchantSurchargeUpdateRequest: Merchant Surcharge update requested for Merchant
+MerchantSurchargeUpdateApprove: Merchant Surcharge update requested approved for Merchant
+MerchantSurchargeUpdateReject: Merchant Surcharge update requested rejected for Merchant
+
+
+
+
+#####################**************************************SERVICES_URL**********************************************######################################
+
+
+
+################################# URL FOR SERVICES #####################################
+
+
+########################## BINDB ###############################
+BindbFindBinURL: "http://BINDBILB-20378b9d7ba044fb.elb.ap-south-1.amazonaws.com/bindb/findbin/"
+
+
+############################EMAIL SERVICES#################################
+EmailServiceEmailValidatorURL: "http://NTFCILB-79e74db2263cdf85.elb.ap-south-1.amazonaws.com/email/emailValidator"
+EmailServiceEmailAddUserURL: "http://NTFCILB-79e74db2263cdf85.elb.ap-south-1.amazonaws.com/email/emailAddUser/"
+EmailServicePasswordChangeURL: "http://NTFCILB-79e74db2263cdf85.elb.ap-south-1.amazonaws.com/email/emailPasswordChange/"
+EmailServiceResetPasswordURL: "http://NTFCILB-79e74db2263cdf85.elb.ap-south-1.amazonaws.com/email/passwordResetEmail?"
+EmailServiceInvoiceLinkURL: "http://NTFCILB-79e74db2263cdf85.elb.ap-south-1.amazonaws.com/email/invoiceLinkEmail/"
+EmailServiceRemittanceProcessURL: "http://NTFCILB-79e74db2263cdf85.elb.ap-south-1.amazonaws.com/email/remittanceProcessEmail/"
+EmailServiceSendBulkEmailServiceTaxURL: "http://NTFCILB-79e74db2263cdf85.elb.ap-south-1.amazonaws.com/email/sendBulkEmailServiceTaxUpdate/"
+EmailServicePendingRequestURL: "http://NTFCILB-79e74db2263cdf85.elb.ap-south-1.amazonaws.com/email/emailPendingRequest/"
+EmailMerchantSignUpNotifier: "http://NTFCILB-79e74db2263cdf85.elb.ap-south-1.amazonaws.com/email/merchantSignupNotifier"
+
+######################### SMS SERVICES ##############################
+SMSServiceSendPromoSMSURL: "http://NTFCILB-79e74db2263cdf85.elb.ap-south-1.amazonaws.com/sms/sendPromoSMS/"
+
+################## TRANSACTION WS SERVICES #######################
+TransactionWSGetAllTokenURL: "http://PGWSILB-e6076bd34ca274b5.elb.ap-south-1.amazonaws.com:8080/pgws/tokenManagerGetAll"
+TransactionWSValidateHashURL: "http://PGWSILB-e6076bd34ca274b5.elb.ap-south-1.amazonaws.com:8080/pgws/validateHash"
+TransactionWSValidateReturnURL: "http://PGWSILB-e6076bd34ca274b5.elb.ap-south-1.amazonaws.com:8080/pgws/validateReturnUrl"
+TransactionWSValidatePaymentTypeURL: "http://PGWSILB-e6076bd34ca274b5.elb.ap-south-1.amazonaws.com:8080/pgws/validatePaymentType"
+TransactionWSRemoveSavedCardURL: "http://PGWSILB-e6076bd34ca274b5.elb.ap-south-1.amazonaws.com:8080/pgws/removeSavedCard"
+TransactionWSAddTokenURL: "http://PGWSILB-e6076bd34ca274b5.elb.ap-south-1.amazonaws.com:8080/pgws/addToken"
+TransactionWSTransactURL: "http://PGWSILB-e6076bd34ca274b5.elb.ap-south-1.amazonaws.com:8080/pgws/transact"
+TransactionWSInternal: "http://PGWSILB-e6076bd34ca274b5.elb.ap-south-1.amazonaws.com:8080/pgws/process/payment"
+TransactionWSUPITransactUrl: "http://PGWSILB-e6076bd34ca274b5.elb.ap-south-1.amazonaws.com:8080/pgws/upiProcess/response"
+TransactionWSBobProcessor: "http://PGWSILB-e6076bd34ca274b5.elb.ap-south-1.amazonaws.com:8080/pgws/bobProcess/response"
+TransactionWSRupayProcessor: "http://PGWSILB-e6076bd34ca274b5.elb.ap-south-1.amazonaws.com:8080/pgws/rupayProcess/response"
+TransactionWSKotakProcessor: "http://PGWSILB-e6076bd34ca274b5.elb.ap-south-1.amazonaws.com:8080/pgws/kotakProcess/response"
+
+TransactionWSSettlementProcessor: "http://PGWSILB-e6076bd34ca274b5.elb.ap-south-1.amazonaws.com:8080/pgws/nodalPayout"
+TransactionWSFssProcessor: "http://PGWSILB-e6076bd34ca274b5.elb.ap-south-1.amazonaws.com:8080/pgws/fssProcess/response"
+TransactionWSDirecpayProcessor: "http://PGWSILB-e6076bd34ca274b5.elb.ap-south-1.amazonaws.com:8080/pgws/direcpayProcess/response"
+TransactionWSIsgpayProcessor: "http://PGWSILB-e6076bd34ca274b5.elb.ap-south-1.amazonaws.com:8080/pgws/isgPayProcess/response"
+TransactionWSAxisBankNBProcessor: "http://PGWSILB-e6076bd34ca274b5.elb.ap-south-1.amazonaws.com:8080/pgws/axisbankNBProcess/response"
+TransactionWSAtomProcessor: "http://PGWSILB-e6076bd34ca274b5.elb.ap-south-1.amazonaws.com:8080/pgws/atomProcess/response"
+TransactionWSAxisBankUPIProcessor: "http://PGWSILB-e6076bd34ca274b5.elb.ap-south-1.amazonaws.com:8080/pgws/axisUpi/response"
+TransactionWSApblProcessor: "http://PGWSILB-e6076bd34ca274b5.elb.ap-south-1.amazonaws.com:8080/pgws/apbl/response"
+TransactionWSMobikwikProcessor: "http://PGWSILB-e6076bd34ca274b5.elb.ap-south-1.amazonaws.com:8080/pgws/mobikwik/response"
+TransactionWSIngenicoProcessor: "http://PGWSILB-e6076bd34ca274b5.elb.ap-south-1.amazonaws.com:8080/pgws/ingenico/response"
+TransactionWSPaytmProcessor: "http://PGWSILB-e6076bd34ca274b5.elb.ap-south-1.amazonaws.com:8080/pgws/paytm/response"
+TransactionWSPhonepeProcessor: "http://PGWSILB-e6076bd34ca274b5.elb.ap-south-1.amazonaws.com:8080/pgws/phonepe/response"
+TransactionWSBilldeskProcessor: "http://PGWSILB-e6076bd34ca274b5.elb.ap-south-1.amazonaws.com:8080/pgws/billdeskProcess/response"
+TransactionWSNodalSettlementProcessor: "http://PGWSILB-e6076bd34ca274b5.elb.ap-south-1.amazonaws.com:8080/pgws/nodalSettlement"
+TransactionWSVirtualSettlementProcessor: "http://PGWSILB-e6076bd34ca274b5.elb.ap-south-1.amazonaws.com:8080/pgws/addVirtualCredit"
+TransactionWSCashfreeProcessor: "http://PGWSILB-e6076bd34ca274b5.elb.ap-south-1.amazonaws.com:8080/pgws/cashfreeProcess/response"
+TransactionWSAsiancheckoutProcessor: "http://PGWSILB-e6076bd34ca274b5.elb.ap-south-1.amazonaws.com:8080/pgws/asiancheckoutProcess/response"
+TransactionWSLyraProcessor: "http://PGWSILB-e6076bd34ca274b5.elb.ap-south-1.amazonaws.com:8080/pgws/lyraProcess/response"
+TransactionWSLyraNBProcessor: "http://PGWSILB-e6076bd34ca274b5.elb.ap-south-1.amazonaws.com:8080/pgws/lyraNBProcess/response"
+
+TransactionWSAgreepayProcessor: "http://PGWSILB-e6076bd34ca274b5.elb.ap-south-1.amazonaws.com:8080/pgws/agreepayProcess/response"
+
+TransactionWSPayuProcessor: "http://PGWSILB-e6076bd34ca274b5.elb.ap-south-1.amazonaws.com:8080/pgws/payu/response"
+TransactionWSEasebuzzProcessor: "http://PGWSILB-e6076bd34ca274b5.elb.ap-south-1.amazonaws.com:8080/pgws/easebuzzProcess/response"
+TransactionWSFederalBankNBProcessor: "http://PGWSILB-e6076bd34ca274b5.elb.ap-south-1.amazonaws.com:8080/pgws/federalNBProcess/response"
+TransactionWSYesbankNBProcessor: "http://PGWSILB-e6076bd34ca274b5.elb.ap-south-1.amazonaws.com:8080/pgws/yesbankNBProcess/response"
+
+################################# TRANSACTION PUSH UPDATE SERVICES ######################################
+TransactionPushUpdateRequestNotificationEmail: "http://10.10.2.4:8080/txnpush/updateRequestNotificationEmail"
+TransactionPushUpdateApproveRejectNotificationForServiceTaxEmailURL: "http://10.10.2.4:8080/txnpush/updateApproveRejectNotificationServiceTaxEmail"
+
+############################EMAIL SERVICES#################################
+EmailServiceResetPasswordSecurityAlertURL: "http://NTFCILB-79e74db2263cdf85.elb.ap-south-1.amazonaws.com/email/resetPasswordSecurityAlert/"
+EmailServiceResetPasswordConfirmationURL: "http://NTFCILB-79e74db2263cdf85.elb.ap-south-1.amazonaws.com/email/resetPasswordConfirmation/"
+EmailServiceChangePasswordConfirmationURL: "http://NTFCILB-79e74db2263cdf85.elb.ap-south-1.amazonaws.com/email/changePasswordConfirmation/"
+
+######################### SHORT URL SERVICES ########################
+ShortUrlServiceInvoice : "https://api-ssl.bitly.com/v4/shorten"
+BitlyAccessToken : 506005b45f41173b21f3b4d854bb88510108ea7f
+
+##############################***************************Company Profile info##############################################
+COMPANY_CUSTOMER_SUPPORT_EMAIL: "ipgsupport@cashlesso.com"
+
+###############################*********************SUB_ADMIN_PERMISSIONS************************************##############################
+
+SUBADMIN_VIEW_MERCHANT_SETUP: merchantList,adminResellers,merchantCrmSignup,merchantSubUsers,merchantSetup,smartRouter,merchantDetailsAction,merchantSubUserList,resellerDetailsAction,Smart Router,signupMerchant
+SUBADMIN_CREATE_MAPPING: resellerMappingAction,chargingPlatform,serviceTaxPlatform,surchargePlatform,surchargeMappingPlatform,mopSetUpAction,pendingRequest,surchargePlatformAction,mappedMerchantList,smartRouter,onusoffusRulesSetup,getRulesList,deleteRouterRule,editRouterRule
+SUBADMIN_VIEW_MERCHANT_BILLING: resellerMappingAction,chargingPlatform,serviceTaxPlatform,surchargePlatform,surchargeMappingPlatform,mopSetUpAction,pendingRequest,serviceTaxPlatformAction,editServiceTax,editChargingDetail,chargingPlatformAction,surchargePlatformAction,editSurchargeDetail,editSurchargeMappingDetail,mappedMerchantList,resellers,mopSetUpDisplay,updateResellerMapping
+SUBADMIN_CREATE_INVOICE: invoice,invoiceSearch,invoiceEvent,invoiceSearchAction,saveInvoice
+SUBADMIN_VIEW_INVOICE: invoice,invoiceSearch,invoiceEvent
+SUBADMIN_VIEW_SEARCH_PAYMENT: transactionSearch
+SUBADMIN_CREATE_BATCH_OPERATION: kotakRefund,yesBankRefund,manageBinRange,binRangeAction
+SUBADMIN_FRAUD_PREVENTION: adminRestrictions,fetchFraudRules,addFraudRule,deleteFraudRule
+SUBADMIN_CREATE_BULK_EMAIL: bulkEmail,bulkSms,sendBulkEmail
+SUBADMIN_VIEW_CASHBACK: viewChargeback
+
+
+##############################***************************SUBUSER_PERMISSIONS*****************************############################################
+# Action for Sub User Permission
+SUBUSER_CREATE_INVOICE: invoice,invoiceSearch,invoiceSearchAction,invoiceEvent,
+SUBUSER_VIEW_INVOICE: invoice,invoiceSearch,invoiceSearchAction,invoiceEvent,saveInvoice
+SUBUSER_VIEW_SEARCH_PAYMENT: transactionSearch,transactionSearchAction
+SUBUSER_VIEW_CASHBACK: viewChargeback,
+
+
+##############################***************************UPI-PARAMETERS-UI*****************************##############################################
+
+firstTimeWaitSeconds : 15
+furtherWaitSeconds : 5
+
+RecoUploadPath: "/home/RECO/recoInput/"
+RefundValidationFilePath: "/home/eTicketing/refundValidation/"
+RefundURL: "http://PGWSILB-e6076bd34ca274b5.elb.ap-south-1.amazonaws.com:8080/pgws/internalRefund"
+
+#######################################AWS DATA########################################################################################################
+
+
+AWSARN : "arn:aws:kms:ap-south-1:492978514308:key/7cd91cbe-b36d-4877-ba70-15321b4df59e"
+AWSContextName : pay10AwsContextName
+AWSContextValue : sa4X8SmlpFDF234fgrg
+
+#################################Amount Based Routing String ##############################
+SWITCH_ACQUIRER_AMOUNT: "01-0.01-2000.00-1001281010142121-DC,02-2000.01-1000000.00-1001281010142121-DC,01-0.01-2000.00-1001281010142121-UP,02-2000.01-1000000.00-1001281010142121-UP,01-0.01-2000.00-1181281220195921-DC,02-2000.01-1000000.00-1181281220195921-DC,01-0.01-2000.00-1181281220195921-UP,02-2000.01-1000000.00-1181281220195921-UP,01-0.01-2000.00-1021281005123647-DC,02-2000.01-1000000.00-1021281005123647-DC,01-0.01-2000.00-1021281005123647-UP,02-2000.01-1000000.00-1021281005123647-UP,01-0.01-2000.00-4411290328155549-DC,02-2000.01-1000000.00-4411290328155549-DC,01-0.01-2000.00-4411290328155549-UP,02-2000.01-1000000.00-4411290328155549-UP"
+
+#################################SMS MSG91 Service Provider ##############################
+#SMS_URL: "https://api.mobilnxt.in/api/push?"
+#SMS_AUTH_KEY: "R4GRa0NfV1P8BJUr5vUoU65uD61HeF"
+#SMS_SENDER_ID: "CASHLS"
+
+#################################SMS VALUE FIRST Service Provider ##############################
+SMS_URL: https://api.myvaluefirst.com/psms/servlet/psms.Eservice2
+SENDER_ID: "brioworkxmltran"
+SENDER_PASSWORD: "brio@345"
+SENDER_NAME: "INFSMS"
+
+
+
+##############################***************************Settlement API ##############################################
+YesBankCBClientSecret: jM4jP0aT0wG1rP5kR0jS8gT4sO7jD2xA3dQ3lG7bC5mJ4pM7oR
+YesBankCBClientId: "6f4458b7-abdd-4de6-a11c-015c3ac33940"
+YesBankCBFundTransferURL: "https://uatsky.yesbank.in:444/app/uat/fundtransfer2R/startTransfer"
+YesBankCBStatusEnqURL: "https://uatsky.yesbank.in:444/app/uat/fundtransfer2R/getstatus"
+YesBankCBAddBeneficiaryURL: "https://uatsky.yesbank.in:444/app/uat/BeneMaintenanceService"
+YesBankCBJKSPath: D://certs//irctcIpayselfsigned.jks
+YesBankCBJKSPassword: irctcipay
+YesBankCBBasicAuthId: testclient
+YesBankCBBasicAuthPassword: OxYcool@123
+YesBankCBAddBeneClientSecret: R6qN2hG6oK2dF6eS3oH3tN1gV7fD1lU4cJ8rR0uB6pA1rU3sT0
+YesBankCBAddBeneClientId: "174524e5-cec9-4305-a147-2eb41a900dda"
+YesBankCBVersion: 1
+YesBankCBPurposeCode: NODAL
+YesBankCBAppId: 346371
+
+
+##############################***************************ALert SMS##############################################
+smsAlertList : "9999999999"
+smsAlertList2 : "9999999999"
+##############################***************************Static / Dynamic user data switch##############################################
+useStaticData : "N"
+useDateIndex : "Y"
+usePGDateTimeIndex : "Y"
+useCapturedDateIndex : "Y"
+DailyTransactionFilePath : "/home/Properties/dailyReport/"
+
+allowedStatusEnquiryCount : 5
+
+statusEnquiryTypeList : Rejected,Declined,Cancelled
+sendEmailOnSignup: Y
+sendEmailOnSignupList: test@pay10.com
+selectMidForRupay : N
+minTxnAmtForGst: "2000.00"
+
+CreatePasswordUrl: "https://secure.pay10.com/crm/jsp/createPassword"
+
+CryptoEncryptionServiceUrl: "http://BINDBILB-20378b9d7ba044fb.elb.ap-south-1.amazonaws.com/crypto/encrypt"
+CryptoDecryptionServiceUrl: "http://BINDBILB-20378b9d7ba044fb.elb.ap-south-1.amazonaws.com/crypto/decrypt"
+
+KEK: bar12345bar12345
+CryptoDecryptURL: "http://BINDBILB-20378b9d7ba044fb.elb.ap-south-1.amazonaws.com/crypto/decrypt?"
+CryptoEncryptURL: "http://BINDBILB-20378b9d7ba044fb.elb.ap-south-1.amazonaws.com/crypto/encrypt?"
+
+DEFAULT_COMPANY_TENANTID: "957883"
+COMPANY_LOGO_LOCATION: "/home/Properties/images/company_logo.png"
+EmailServiceInvoiceSuccessTxnsNotification: "http://NTFCILB-79e74db2263cdf85.elb.ap-south-1.amazonaws.com/email/invoiceSuccessTxnsNotification/"
+
+##############################***************************Merchant document upload location for chargeback ##############################################
+
+chargeback_docUploadPath: "C:\\Users\\rahul\\Desktop\\uploads\\chargeback\\"
+chargeback_docUploadExtension: ".pdf,.png,.jpeg,.jpg"
+
+##############################***************************Merchant document upload location while onboarding ##############################################
+
+merchant_onBoard_docUploadPath: "/home/Properties/uploads/merchant/"
+
+merchant_onBoard_docUploadExtension: ".pdf,.png,.jpeg,.jpg"
+
+TransactionStatusFields: CARD_MASK,CUST_NAME,MOP_TYPE,CURRENCY_CODE,STATUS,RESPONSE_CODE,RESPONSE_MESSAGE,ACCT_ID,PAYMENT_TYPE,ACQUIRER_TYPE,AUTH_CODE,PG_RESP_CODE,PG_TXN_MESSAGE,RRN,PG_REF_NUM,SURCHARGE_FLAG,CREATE_DATE,UPDATE_DATE,SURCHARGE_AMOUNT,ACQ_ID,UDF1,UDF2,UDF3,UDF4,UDF5,UDF6,TOTAL_AMOUNT,PAYMENTS_REGION,CARD_HOLDER_TYPE,DATE_INDEX,PG_TDR_SC,ACQUIRER_TDR_SC,PG_GST,ACQUIRER_GST,CARD_HOLDER_NAME,INVOICE_ID,TXNTYPE,SETTLEMENT_DATE,SETTLEMENT_FLAG,SETTLEMENT_DATE_INDEX,INTERNAL_CARD_ISSUER_BANK,RESELLER_ID,RESELLER_CHARGES,RESELLER_GST
+
+TxnStatusUpdateUrl: "http://NTFCILB-79e74db2263cdf85.elb.ap-south-1.amazonaws.com:8080/sms/updateTxnStatus"
+
+monthly_inVoice_destinationPath: "/home/Properties/Documents/MonthlyInvoice/"
+
+###job 1 ####
+databaseConnectionMonitoring: 0
+databaseConnectionMonitoringCron: 0 */3 * ? * *
+databaseConnectionTimeoutEmailUrl: http://NTFCILB-79e74db2263cdf85.elb.ap-south-1.amazonaws.com/email/databaseConnectionFailureNotifier
+databaseConnectionFailureEmailId: noreply@pay10.com
+
+
+#### Low traffic time for both job 2 and job 3 ######
+lowTrafficStartTime: "4:00"
+lowTrafficEndTime: "7:00"
+
+
+###job 2 ####
+transactionFetchingMonitoring: 0
+transactionFetchingMonitoringCron: 0 */10 * ? * *
+fetchHighTrafficMinutesBefore: 5
+fetchLowTrafficMinutesBefore: 25
+transactionFetchMonitoringEmailUrl: http://NTFCILB-79e74db2263cdf85.elb.ap-south-1.amazonaws.com/email/transactionsFetchNotifier
+transactionFetchMonitoringEmailId: "noreply@pay10.com"
+
+###job 3 ####
+successRateMonitoring: 0
+successRateMonitoringCron: 0 */10 * ? * *
+successRateHighTrafficMinutesBefore: 5
+successRateLowTrafficMinutesBefore: 25
+totalSuccessRateMonitoringEmailUrl: http://NTFCILB-79e74db2263cdf85.elb.ap-south-1.amazonaws.com/email/totalSuccessRateNotifier
+individualSuccessRateMonitoringEmailUrl: http://NTFCILB-79e74db2263cdf85.elb.ap-south-1.amazonaws.com/email/individualSuccessRateNotifier
+
+AllowTxnUpdtFailAlert: Y
+
+ServiceTax: 18.00
+#BinCodesAPIURL: "https://api.bincodes.com/bin/json/e79ad61430eb0160cc23f283c899e41f/"
+BinCodesAPIURL: "https://neutrinoapi.net/bin-lookup"
+BinAPICallFlag: 1
+UPIRedirectURL: https://secure.pay10.com/pgui/jsp/upiRedirect
+PUSH_PAYOUT_TXN_DETAILS_URL: "http://127.0.0.1:8084/txnpush/pushTransactionDetails/payout"
+
+PAYOUT_RESPONSE_FIELDS : FAILURE_REASON,RECOMMENDED_ACTION
+
+######## TriggerWebhookJob ############
+
+TriggerWebhookJob: 0
+TriggerWebhookJobCron: 0 */5 * ? * *
+
+######### TimeoutHandlerJob ############
+timeoutHandlerJob: 0
+timeoutHandlerJobCron: 0 */1 * ? * *
+timeoutTxnJobDaysBefore: 5
+
+MSG_OTP_SMS_URL: "https://api.msg91.com/api/sendotp.php"
+
+MSG_SMS_URL: "https://api.msg91.com/api/sendhttp.php"
+
+MSG_SMS_AUTH_KEY: "348631ARfO3QdE5fc9e822P1"
+
+MSG_SMS_SENDER_ID: "CSHLSO"
+
+######## ######## RuleActiveStatusHandlerJob ############
+
+RuleActiveStatusHandler: 0
+RuleActiveStatusHandlerCron: 0 */1 * ? * *
+
+PayoutDefaultGstValue : 18.00
+PgNodalSurchargeMerchantBeneCode : DINEROCLSO02
+PgNodalSurchargeMerchantBenePaymentType : N
+PgNodalSurchargeSessionUserPayid : 1018791015181015
+
+SMS_FLOW_URL: "https://api.msg91.com/api/v5/flow/"
+FLOW_ID_TEST: "5ff56e4ad6fc0570d66baf30"
+ALERT_FLOW_ID: "6048f5b01c799427d455a5f5"
+SUCCESS_FLOW_ID: "604ee64ba7016c5cc57162d3"
+LOGIN_WITH_OTP_DLT_ID: "1207161189610907577"
+SIGNUP_OTP_DLT_ID: "1207161189666070463"
+
+PgServiceChargeSettlementJob: 0
+PgServiceChargeSettlementCron: 0 */1 * ? * *
+PgServiceChargeSettlementDayBefore: 1
+PgServiceChargeSettlementDayUrl: "http://PGWSILB-e6076bd34ca274b5.elb.ap-south-1.amazonaws.com:8080/pgws/pgServiceChargeSettlement"
+OTP_EXPIRE_TIME: "5"
+
+BilldeskUpiStatusUrl: "http://PGWSILB-e6076bd34ca274b5.elb.ap-south-1.amazonaws.com:8080/pgws/transact/getBilldeskUpiStatus"
+
+#####################LYRA CONFIGURATION############### 
+LyraSaleUrl : "https://secure.payzen.co.in/api-payment/V4/Charge/CreatePayment"
+LyraResponseUrl: "https://secure.pay10.com/pgui/jsp/lyraResponse"
+LyraRefundUrl: "https://secure.payzen.co.in/api-payment/V4/Transaction/CancelOrRefund"
+LyraStatusEnqUrl: "https://secure.payzen.co.in/api-payment/V4/Order/Get"
+LyraNBResponseUrl: "https://secure.pay10.com/pgui/jsp/lyraNBResponse?pgRefNo="
+LyraNBServerResponseUrl: "https://secure.pay10.com/pgui/jsp/lyraNBServerResponse"
+LyraNBChargeUrl: "https://api.in.lyra.com/pg/rest/v1/charge"
+LyraNBUuidURL: "https://api.in.lyra.com/public/v1/charge/"
+LyraUpiServerResponseUrl: "https://secure.pay10.com/pgui/jsp/lyraUpiResponse"
+LyraUpiCallbackUrl: "https://secure.pay10.com/pgui/jsp/lyraUpiCallbackResponse"
+LyraUpiWebhookResponseUrl: "https://secure.pay10.com/pgui/jsp/lyraUpiResponse?pgRefNo="
+
+#####################################################
+LYRA: UP
+LYRA_ADD_SURCHARGE: Y
+LYRACCMOP: VI,MC,MS,RU
+LYRADCMOP: VI,MC,DN,DI
+LYRANBMOP: 1005,1009,1064,1092,1093,1055,1063,1060,1026,1027,1004,1013,1069,1054,1049,1041,1048,1032,1095,1096,1107,1106,1030,1097,1065,1038,1044,1103,1001
+LYRAWLMOP: PPL
+LYRAUPMOP: UP
+
+Lyra_UID: 12345 
+Lyra_NAME: Demo
+Lyra_EMAIL_ID: test@gmail.com
+Lyra_PHONE: 9999999999
+Lyra_ADDRESS: Delhi
+Lyra_CITY: Delhi
+
+
+################# Start SBI Configurations ##############################
+SbiSaleUrl: "https://merchant.onlinesbi.com/merchant/merchantprelogin.htm"
+SbiresponseURL: "https://secure.pay10.com/pgui/jsp/sbiResponse"
+SbiStatusEnqURL: "https://merchant.onlinesbi.com/thirdparties/doubleverification.htm"
+SBIEncKeyFileName: "BHARTI_PVT.key"
+SBIRefundCallUrl: "https://merchant.bhartipay.com/crm/jsp/sbiRefundPaymentResponse"
+SBI: CC,DC,NB
+SBI_ADD_SURCHARGE: Y
+SBINBMOP: 1030
+TransactionWSSbiProcessor: "http://PGWSILB-e6076bd34ca274b5.elb.ap-south-1.amazonaws.com:8080/pgws/sbiProcess/response"
+SBICCMOP: VI,MC,DN,DI
+SBIDCMOP: VI,MC,MS,RU
+
+SBIGSTSLAB: 0
+# sbi cc configuration
+SbiResourcePath: /home/Properties/pay10_config
+SbikeystorePath: /home/Properties/pay10_config
+SbiAliasName: agwoBhartiPay
+################# END SBI Configurations ##############################
+
+################# Start FREECHARGE Configurations ##############################
+FreeChargeSaleUrl: "https://checkout.freecharge.in/api/v1/co/process/upi/payment"
+FreeChargeResponseURL: "https://secure.pay10.com/pgui/jsp/freeChargeUpiResponse"
+FreeChargeStatusEnqURL: "https://checkout.freecharge.in/api/v1/co/transaction/status"
+FreeChargeRefundEnqURL: "https://checkout.freecharge.in/api/v1/co/refund"
+FREECHARGE: UP
+FREECHARGE_ADD_SURCHARGE: Y
+FREECHARGEUPIMOP: UP
+TransactionWSFreeChargeProcessor: "http://PGWSILB-e6076bd34ca274b5.elb.ap-south-1.amazonaws.com:8080/pgws/freechargeProcess/response"
+FreeChargeGSTSLAB: 0
+FreechargeUpiStatusUrl: "http://PGWSILB-e6076bd34ca274b5.elb.ap-south-1.amazonaws.com:8080/pgws/transact/getFreechargeUpiStatus"
+FreeChargeCallbackRequired: N
+################# END FREECHARGE Configurations ##############################
+
+################# Start ICICI NB Configurations ##############################
+ICICINBSaleUrl: "https://shopping.icicibank.com/corp/BANKAWAY?"
+ICICINBResponseURL: "https://secure.pay10.com/pgui/jsp/iciciNBResponse"
+ICICINBStatusEnqURL: "https://shopping.icicibank.com/corp/BANKAWAY?"
+ICICINBRefundEnqURL: "https://shopping.icicibank.com/corp/BANKAWAY?"
+ICICIBANK: NB,UP
+ICICINB_ADD_SURCHARGE: Y
+ICICINBMOP: 1013
+TransactionWSICICINBProcessor: "http://PGWSILB-e6076bd34ca274b5.elb.ap-south-1.amazonaws.com:8080/pgws/iciciNBProcess/response"
+ICICINBGSTSLAB: 0
+ICICINBCallbackRequired: N
+################# END ICICI NB Configurations ##############################
+
+#################Callback fields START###################
+CallBackFields: CUST_NAME,TXNTYPE,AMOUNT,CURRENCY_CODE,ORDER_ID,PAY_ID,MOP_TYPE,TXN_ID,RESPONSE_CODE,RESPONSE_MESSAGE,HASH,ECI,AUTH_CODE,RRN,AVR,ACQ_ID,STATUS,ORIG_TXN_ID,CUST_ID,PAYMENT_TYPE,CUST_EMAIL,RETURN_URL,RESPONSE_DATE,RESPONSE_TIME,CARD_MASK,PRODUCT_DESC,RESPONSE_DATE_TIME,CUST_PHONE,PG_TXN_MESSAGE,SURCHARGE_FLAG,SURCHARGE_AMOUNT,REFUND_FLAG,REFUND_ORDER_ID,PG_REF_NUM,SERVICE_TAX,CARD_ISSUER_BANK,CARD_ISSUER_COUNTRY,TOTAL_AMOUNT,IS_STATUS_FINAL,IS_MERCHANT_HOSTED,INVOICE_ID,INVOICE_NO,CARD_HOLDER_NAME
+#################Callback fields END###################
+##addded by vijaylakshmi for encrypt merchant key
+#### Main to encrypt merchant key in user table #####
+MAIN_KEY_FOR_ALL_MERCHANT: "lmm;mpgtrgrgsddb"
+MprFilePath: "/home/recodata/recoInput/"
+#################MERCHANT PAYMENT LINK###################
+merchantPaymentLinkFormURL: "https://secure.pay10.com/pgui/jsp/merchantPaymentLink?svalue="
+merchantPaymentLink: "https://secure.pay10.com/pgui/jsp/paymentrequest"
+merchantReturnUrl: "https://secure.pay10.com/pgui/jsp/invoiceResponse.jsp"
+
+
+####################Payment Link Start##############################
+paymentLinkURL : "https://secure.pay10.com/pgui/jsp/paymentLinkPay?pvalue="
+#####################Payment Link End###############################
+
+
+#################WEBHOOK APIS START##########################
+Webhook_Save_Event: "https://webhook.pay10.com/api/v1/subscription"
+Webhook_Event_By_AssociationId: "https://webhook.pay10.com/api/v1/subscription/events?associationId="
+Webhook_Get_SaveDetails: "https://webhook.pay10.com/api/v1/subscription?associationId="
+#################WEBHOOK APIS END############################
+
+
+####################Email Configuration Start################################################
+Mail_Host: "smtp.office365.com"
+socketFactory_port: "587"
+socketFactory_class: "javax.net.ssl.SSLSocketFactory"
+mail_auth: "true"
+mail_port: "587"
+mail_protocal: "TLSv1.2"
+mail_starttls: "true"
+####################Email Configuration End################################################
+
+
+################# Start ICICI UPI Configurations ##############################
+ICICIUPI_PUBLIC_KEY_PATH : "/opt/tomcat/pg_config/pg_config/icici/rsa_apikey.txt"
+ICICIUPI_PRIVATE_KEY_PATH : "/opt/tomcat/pg_config/pg_config/icici/private_key.txt"
+ICICIUpiMerchantKey: a90f92e65a8ed9263c940eb4814f02f0
+ICICIUpiMcc: 408095
+ICICIUpiSaleUrl: "https://apibankingonesandbox.icicibank.com/api/MerchantAPI/UPI/v0/CollectPay2/"
+ICICIUpiCallBackUrl: "https://apibankingonesandbox.icicibank.com/api/MerchantAPI/UPI/v0/CallbackStatus2/"
+ICICIUpiValaddUrl: ""
+ICICIUpiRefundUrl: "https://apigwuat.icicibank.com:8443/api/MerchantAPI/UPI/v1/Refund/"
+#ICICIUpiSaleUrl: "https://apibankingonesandbox.icicibank.com/api/MerchantAPI/UPI/v0/CollectPay2/408095"
+#ICICIUpiRefundUrl: "https://api.icicibank.com:8443/api/MerchantAPI/UPI/v1/Refund/"
+#ICICIUpiValaddUrl: "https://apibankingonesandbox.icicibank.com/api/MerchantAPI/UPI/v0/CallbackStatus2/408095"
+ICICIUpiStatusEnqUrl: "https://apibankingonesandbox.icicibank.com/api/MerchantAPI/UPI/v0/CallbackStatus2/"
+ICICIUpiStatusValue: T
+ICICIUpiExpiryTime: 10
+ICICIUpiLastValue: NA
+ICICIUpiMerchantVPA: bhartipayuat@icici
+ICICIUpiMID: HDFC000000625490
+ICICIUpiTransactionType: P2P
+ICICIUpiPaymentType: PAY
+ICICIUpiAesUtil: AES
+#ICICIBANK: UP
+ICICIBANKUP: UP
+################# End ICICI UPI Configurations ##############################
+
+###########merchentPermission.properties<<<<<<<<<<<<<<<<<<<<
+DEFAULT : refundFromCrm
+###########merchentPermission.properties End<<<<<<<<<<<<<<<<<<<<
+
